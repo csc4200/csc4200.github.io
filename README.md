@@ -1,2 +1,2 @@
 # site-fall-2019
-4cd8d0e... Initial commit
+Initial commit for our Hugo site.
