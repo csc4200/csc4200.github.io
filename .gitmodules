@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:csc4200/csc4200.github.io.git
+	branch = master
