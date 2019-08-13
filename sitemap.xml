@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>https://csc4200.github.io/meterial/</loc>
+  </url>
+  
+  <url>
     <loc>https://csc4200.github.io/</loc>
     <priority>0</priority>
   </url>
