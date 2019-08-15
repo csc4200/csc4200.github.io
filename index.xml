@@ -21,6 +21,18 @@ Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce D
     </item>
     
     <item>
+      <title>Programming Assignment 1</title>
+      <link>https://csc4200.github.io/programming1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://csc4200.github.io/programming1/</guid>
+      <description>Due Date - Sept 30, 2019
+Overview
+
+In this project, you are going to implement a client and a server program that sends a command over the network. The command simply turns on a LED light. However, the LED light is connected to a server and it speaks a special protocol that we don&amp;rsquo;t know. All we know is the packet format used for turning on the light. Your job is to create this packet and then send it to the server for turning on this light.</description>
+    </item>
+    
+    <item>
       <title>Syllabus1</title>
       <link>https://csc4200.github.io/syllabus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

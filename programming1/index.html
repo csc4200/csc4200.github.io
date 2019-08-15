@@ -206,29 +206,98 @@
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">Course Meterial</h1>
+        <h1 class="title section-title">Programming Assignment 1</h1>
         <h5 class="subtitle is-5 is-muted"></h5>
         <div class="divider"></div>
       </div>
     </div>
-    <ol>
-<li><p><strong>Textbook</strong>
-We will be using the following book. It is open source and you can use <a href="https://github.com/SystemsApproach/book/blob/master/published/book.pdf">PDF</a> or the <a href="https://github.com/SystemsApproach/book/blob/master/published/book.epub">EPUB</a> version. You can also view the HTML pages <a href="https://book.systemsapproach.org/">here</a>.</p>
+    <p><strong>Due Date - Sept 30, 2019</strong></p>
 
-<pre><code>Title: Computer Networks: A Systems Approach
-Authors: Larry Peterson and Bruce Davie
-Copyright: Elsevier, 2012
-Source: https://github.com/SystemsApproach
-License: CC BY 4.0
+<p><strong>Overview</strong></p>
+
+<p><br>
+In this project, you are going to implement a client and a server program that sends a command over the network. The command simply turns on a LED light. However, the LED light is connected to a server and it speaks a special protocol that we don&rsquo;t know. All we know is the packet format used for turning on the light. Your job is to create this packet and then send it to the server for turning on this light.
+<br>
+The objective is to familiarize you with the concept of sockets.</p>
+
+<p><br>
+<strong><em>Server Specifications</em></strong></p>
+
+<p>The server takes two arguments:</p>
+
+<pre><code>$ lightserver &lt;PORT&gt;&lt;LOG FILE LOCATION&gt;
+</code></pre>
+
+<p>1.<code>PORT</code> - The port server listens on.</p>
+
+<p>2.<code>Log file location</code> - Where you will keep record of commands you received.</p>
+
+<pre><code>For example:
+$ lightserver 6543 /tmp
+</code></pre>
+
+<p>If your server receives a command that is not supported, it simply logs it as <code>UNKNOWN COMMAND: COMMAND NAME</code> and ignores it.</p>
+
+<p>If your server receives a command that is supported, it logs it as <code>EXECUTING SUPPORTED COMMAND: COMMAND NAME</code>. TODO add executable for turning on the light</p>
+
+<p><br></p>
+
+<p><strong><em>Server Requirements</em></strong>
+<br>
+The Server must:</p>
+
+<ol>
+<li>Listen to commands indefinitely. It must not exit after receiving a single command (5 pts)</li>
+<li>Parse the packet and logs the command (15pts)</li>
+<li>Interface with the light control on supported command (5pts)</li>
+<li>Print an error message if receives a command it does not understand (5 pts)</li>
+
+<li><p>Reply to the Client with REPLY message (10pts)</p>
+
+<pre><code>|MESSAGE TYPE - 17 (Interger)| MESSAGE (OK|FAILED) - 1 BYTE|
 </code></pre></li>
+</ol>
 
-<li><p><strong>Raspberry Pi</strong> - We will be using Raspberry PIs for the projects. You will need to buy them but you get to keep them at the end of the semester.(TODO: exact spec)</p></li>
+<p><br>
+<strong><em>Client Specifications</em></strong>
+<br></p>
 
-<li><p><strong>Socket Programming Book</strong> - Use <a href="https://beej.us/guide/bgnet/">Beej&rsquo;s Guide to Network Programming</a> for socket programming introduction.</p></li>
+<pre><code>$ lightclient &lt;SERVER-IP&gt;&lt;PORT&gt;
+</code></pre>
 
-<li><p><strong>Make</strong> - You will be using makefiles to compile the projects. <a href="http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/">Here</a> is a short but useful tutorial.</p></li>
+<p>The client also takes two arguments:</p>
 
-<li><p>**</p></li>
+<p>1.<code>Server IP</code> - The IP address of the server.</p>
+
+<p>2.<code>PORT</code> - The port the server listens on.</p>
+
+<pre><code>For example:
+$ lightclient 192.168.2.1 6543
+</code></pre>
+
+<p><strong><em>Client Requirements</em></strong>
+<br>
+The Client must:</p>
+
+<ol>
+<li><p>Send out a packet in the following format:</p>
+
+<pre><code>|MESSAGE TYPE - 17 (Interger)| MESSAGE (LIGHTON) - 1 BYTE|
+</code></pre></li>
+</ol>
+
+<p><br></p>
+
+<p><br>
+The Client must:</p>
+
+<ol>
+<li>Format the packet and send it over the wire (10 pts)</li>
+<li>Wait for reply until it times out (timeout = 10 second) (10pts)</li>
+<li>Exit with an error message if it can not connect to the server or is supplied with wrong port/IP (10pts)</li>
+<li>Terminate the connection properly is OK message is received. It also prints &ldquo;SUCCESS, CONNECTION TERMINATING&rdquo; (10pts)</li>
+<li>Retries once if FAILED message is received, it also prints &ldquo;FAILURE, RETRY&rdquo; (10pts)</li>
+<li>Exits is a FAILED message is received again, it also prints &ldquo;FAILURE: GIVING UP&rdquo; (10pts)</li>
 </ol>
 
   </div>
