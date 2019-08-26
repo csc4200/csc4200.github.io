@@ -35,7 +35,7 @@ Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce D
  Use packet capture to visually inspect protocols.
 Overview
 
-In this warmup project, you are going to implement a client and a server program that sends a command over the network.</description>
+In this warmup project, you are going to implement a client and a server program that will send a command over the network.</description>
     </item>
     
     <item>
