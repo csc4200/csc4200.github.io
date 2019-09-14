@@ -206,7 +206,7 @@
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">Programming Assignment</h1>
+        <h1 class="title section-title">Privately to the Cloud and Back</h1>
         <h5 class="subtitle is-5 is-muted"></h5>
         <div class="divider"></div>
       </div>
@@ -222,17 +222,12 @@
 <hr />
 
 <ol>
-<li><p>Learn to create network packets.</p></li>
+<li><p>Learn to create robust network protocols</p></li>
 
-<li><p>Learn how packets can be sent over the network.</p></li>
+<li><p>Learn about reliable communication</p></li>
 
-<li><p>Familiarize you with the concept of sockets.</p></li>
-
-<li><p>Learn packing structures, endianness, unpacking, and interpreting network data.</p></li>
-
-<li><p>Learn how to use actual data from a packet.</p></li>
-
-<li><p>Use packet capture to visually inspect protocols.</p>
+<li><p>How a premitive VPN might work</p></li>
+</ol>
 
 <hr />
 
@@ -240,31 +235,145 @@
 
 <hr />
 
-<p><br>
-In this warmup project, you are going to implement a client and a server program that will send a command over the network. The command simply turns on an LED light. However, the LED light speaks a special protocol. All we know about this protocol is the packet format used for turning on the light. Your task is to create this packet and then send it to the server for turning on this light. For this assignment, you won&rsquo;t actually turn on a light, just sending the command is enough.
-<br></p></li>
-</ol>
+<p><br></p>
+
+<p>In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory. You will then have clients that connects to the server and retrives this content. This is the overly simplified idea behind <strong>TOR</strong>. For this project, we are not going to introduce encryption, though this can be easily done later. The client and server communications MUST use UDP (SOCK_DGRAM).
+<br></p>
 
 <p><br></p>
 
 <hr />
 
-<p><strong><em>Server Specifications</em></strong></p>
+<p><strong>Server Specifications</strong></p>
 
 <hr />
 
 <p>The server takes two arguments:</p>
 
-<pre><code>$ lightserver -p &lt;PORT&gt; -l &lt;LOG FILE LOCATION&gt;
+<pre><code>$ anonserver -p &lt;PORT&gt; -s &lt;LOG FILE LOCATION&gt; -p &lt;web page to download&gt;
 </code></pre>
 
 <p>1.<code>PORT</code> - The port server listens on.</p>
 
 <p>2.<code>Log file location</code> - Where you will keep a record of actions.</p>
 
-<pre><code>For example:
-$ lightserver -p 30000 -l /tmp/logfile
+<p>3.<code>p</code> - Which webpage to download and serve</p>
+
+<p>For example:</p>
+
+<pre><code>$ anonserver -p 30000 -l /tmp/logfile -p www.nytimes.com
 </code></pre>
+
+<hr />
+
+<p>Functional requirements</p>
+
+<hr />
+
+<ol>
+<li><p>The server must open a UDP socket on the specified port number</p></li>
+
+<li><p>The server should gracefully process incorrect port number and exit with a non-zero error code</p></li>
+
+<li><p>The server should send a FIN after done sending the packet</p></li>
+
+<li><p>The server should download the file specified by -p and save it from the memory</p></li>
+</ol>
+
+<hr />
+
+<p><strong><em>Client Specifications</em></strong></p>
+
+<hr />
+
+<p><br></p>
+
+<pre><code>$ anonclient -s &lt;SERVER-IP&gt; -p &lt;PORT&gt; -l LOGFILE
+</code></pre>
+
+<p>The client takes three arguments:</p>
+
+<p>1.<code>Server IP</code> - The IP address of the server.</p>
+
+<p>2.<code>PORT</code> - The port the server listens on.</p>
+
+<p>2.<code>Log file location</code> - Where you will keep a record of packets you received.</p>
+
+<pre><code>For example:
+$ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE
+</code></pre>
+
+<hr />
+
+<p>Protocol Specifications</p>
+
+<hr />
+
+<p>The payload of each UDP packet sent by server and client MUST start with the following 12-byte header. All fields are in network order (most significant bit first):</p>
+
+<pre><code>   0                   1                   2                   3
+   0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  |                        Sequence Number                        |
+  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  |                     Acknowledgment Number                     |
+  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+  |                  Not Used                               |A|S|F|
+  +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+</code></pre>
+
+<p>Where:</p>
+
+<pre><code>1. Sequence Number (32 bits): The sequence number of the first data octet in this packet (except when SYN is present). If SYN is present the sequence number is the initial sequence number (100).
+2. The sequence number is given in the unit of bytes in the packet.
+
+3. Acknowledgement Number (32 bits): If the ACK control bit is set this field contains the value of the next sequence number the sender of the segment is expecting to receive. Once a connection is established this is always sent.
+
+4. The acknowledgement number is given in the unit of bytes.
+
+6. Not Used (29 bits): Must be zero.
+
+7. A (ACK, 1 bit): Indicates that there the value of Acknowledgment Number field is valid
+
+8. S (SYN, 1 bit): Synchronize sequence numbers
+
+9. F (FIN, 1 bit): Finish, No more data from sender
+</code></pre>
+
+<pre><code>      Server                                Client
+      |                                     |
+      |     seq=12345, ack=0, SYN           |
+      | &lt;---------------------------------- |
+      | seq=100,  ack=12346, SYN, ACK       |
+      | ----------------------------------&gt; |
+      |   seq=12346,  ack=101, ACK          |
+      | &lt;---------------------------------- |####handshake complete, start getting data
+      |seq=102, ack=12347, ACK, 512 payload |
+      | ----------------------------------&gt; |
+      |   seq=12347, ack=614, ACK           |
+      | &lt;---------------------------------- |
+      |seq=614, ack=12348, ACK, 512 payload|
+      | ----------------------------------&gt; |
+      |   seq=12348, ack=1126, ACK          |
+      | &lt;---------------------------------- |
+      |   seq=4322, ack=13370,  ACK         |
+      | ----------------------------------&gt; |
+
+
+</code></pre>
+
+<p>Client requirements:</p>
+
+<ol>
+<li>The client must open a UDP socket and initiate 3-way handshake to the specified hostname/ip and port</li>
+<li>Send UDP packet src-ip=DEFAULT, src-port=DEFAULT, dst-ip=HOSTNAME-OR-IP, dst-port=PORT with SYN flag set, Connection ID initialized to 0, Sequence Number set to 12345, and Acknowledgement Number set to 0</li>
+<li>Expect response from server with SYN | ACK flags.</li>
+<li>Send UDP packet with ACK flag, you should now start receiving data</li>
+<li>The client should gracefully process incorrect hostname and port number and exit with a non-zero exit code</li>
+<li>After file is successfully transferred, expect a FIN message from the server</li>
+<li>On a FIN message, send an FIN|ACK, and gracefully shutdown the connection and write the content to an output file</li>
+<li>You can assume no packet loss for this</li>
+</ol>
 
 <hr />
 
@@ -313,29 +422,6 @@ $ lightserver -p 30000 -l /tmp/logfile
 <li><p>Make sure server does not exit on 0 byte messages.
 <br></p></li>
 </ol>
-
-<hr />
-
-<p><strong><em>Client Specifications</em></strong></p>
-
-<hr />
-
-<p><br></p>
-
-<pre><code>$ lightclient -s &lt;SERVER-IP&gt; -p &lt;PORT&gt; -l LOGFILE
-</code></pre>
-
-<p>The client takes three arguments:</p>
-
-<p>1.<code>Server IP</code> - The IP address of the server.</p>
-
-<p>2.<code>PORT</code> - The port the server listens on.</p>
-
-<p>2.<code>Log file location</code> - Where you will keep a record of packets you received.</p>
-
-<pre><code>For example:
-$ lightclient -s 192.168.2.1 -p 6543 -l LOGFILE
-</code></pre>
 
 <p><br></p>
 
