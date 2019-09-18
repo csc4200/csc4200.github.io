@@ -26,10 +26,10 @@ Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce D
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://csc4200.github.io/programming2/</guid>
-      <description>Due Date - Sept 13, 2019 Objectives
+      <description>Due Date - October 15, 2019 Objectives
  Learn to create robust network protocols
  Learn about reliable communication
- How a premitive VPN might work
+ How a premitive VPN network might work
   Overview
 
 In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory. You will then have clients that connects to the server and retrives this content.</description>
