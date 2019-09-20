@@ -57,13 +57,13 @@ Week 3 - September 9, 11, 13 - Link layer continued</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://csc4200.github.io/programming2/</guid>
-      <description>Due Date - October 15, 2019 Objectives
+      <description>Due Date - October 20, 2019, 10PM CST Objectives
  Learn to create robust network protocols
  Learn about reliable communication
- How a premitive VPN network might work
+ How a premitive proxy might work. You can use this to get around sensorship or firewalls.
   Overview
 
-In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory. You will then have clients that connects to the server and retrives this content.</description>
+In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory.</description>
     </item>
     
   </channel>
