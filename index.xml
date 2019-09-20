@@ -21,21 +21,6 @@ Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce D
     </item>
     
     <item>
-      <title>Privately to the Cloud and Back</title>
-      <link>https://csc4200.github.io/programming2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://csc4200.github.io/programming2/</guid>
-      <description>Due Date - October 15, 2019 Objectives
- Learn to create robust network protocols
- Learn about reliable communication
- How a premitive VPN network might work
-  Overview
-
-In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory. You will then have clients that connects to the server and retrives this content.</description>
-    </item>
-    
-    <item>
       <title>Programming Assignment</title>
       <link>https://csc4200.github.io/programming1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -64,6 +49,21 @@ Week 1 - August 26, 28, 30 - Introduction, Network terminologies, Architecture v
 September 2 - Labor day, no class
 Week 2 - September 4, 6 - Connecting machines, Reliable Delivery, Ethernet, Access protocols Lecture 4, Lecture5, Lecture 6 September 8 - Last date to drop class
 Week 3 - September 9, 11, 13 - Link layer continued</description>
+    </item>
+    
+    <item>
+      <title>To the Cloud and Back</title>
+      <link>https://csc4200.github.io/programming2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://csc4200.github.io/programming2/</guid>
+      <description>Due Date - October 15, 2019 Objectives
+ Learn to create robust network protocols
+ Learn about reliable communication
+ How a premitive VPN network might work
+  Overview
+
+In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory. You will then have clients that connects to the server and retrives this content.</description>
     </item>
     
   </channel>
