@@ -206,41 +206,185 @@
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">Course Material</h1>
+        <h1 class="title section-title">Create your own content delivery network</h1>
         <h5 class="subtitle is-5 is-muted"></h5>
         <div class="divider"></div>
       </div>
     </div>
-    <ol>
-<li><p><strong>Textbook</strong>
-We will be using the following book. It is open source and you can use <a href="https://github.com/SystemsApproach/book/blob/master/published/book.pdf">PDF</a> or the <a href="https://github.com/SystemsApproach/book/blob/master/published/book.epub">EPUB</a> version. You can also view the HTML pages <a href="https://book.systemsapproach.org/">here</a>.</p>
+    
 
-<pre><code>Title: Computer Networks: A Systems Approach
-Authors: Larry Peterson and Bruce Davie
-Copyright: Elsevier, 2012
-Source: https://github.com/SystemsApproach
-License: CC BY 4.0
-</code></pre></li>
+<h2 id="due-date-october-20-2019-10pm-cst">Due Date - October 20, 2019, 10PM CST</h2>
 
-<li><p><strong>Raspberry Pi</strong> - We will be using Raspberry PIs for the third project. You will need to buy one but you get to keep it at the end of the semester.(TODO: exact spec)</p></li>
+<hr />
 
-<li><p><strong>Socket Programming Book</strong> - Use <a href="https://beej.us/guide/bgnet/">Beej&rsquo;s Guide to Network Programming</a> for socket programming introduction.</p></li>
+<p><strong>Objectives</strong></p>
 
-<li><p><strong>Make</strong> - You will be using makefiles to compile the projects. <a href="http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/">Here</a> is a short but useful tutorial.</p></li>
+<hr />
 
-<li><p>Grading criteria:</p>
+<ol>
+<li><p>Learn to break down a very complex problem into smaller problems</p></li>
 
-<ul>
-<li>All Homeworks combined - 15%</li>
-<li>Programming Assignment 1 - 5%</li>
-<li>Programming Assignment 2 - 10%</li>
-<li>Programming Assignement 3 + demo - 15+5 %</li>
-<li>Midterm - 25%</li>
-<li>Final (Comprehensive) - 25%</li>
-</ul></li>
+<li><p>Solve each smaller problem and bring them together to solve the larger problem</p></li>
+
+<li><p>Learn how CDNs work and build your own CDN</p></li>
 </ol>
 
-<p>Final grade will depend on relative distribution of scores.</p>
+<hr />
+
+<p><strong>Overview</strong></p>
+
+<hr />
+
+<p><br></p>
+
+<p><img src="/cdn-redirector.png" alt="overview" /></p>
+
+<p><br></p>
+
+<p>In this project, you are going to build on the first and the second project. You will build your own &ldquo;cloud&rdquo;. A cloud typically hosts multiple copies (replicas) of the same content. Depending on where the request is coming from, it routes the requests a suitable replica.  A primary component of any CDN, therefore is the entity called redirector. The function of a redirector is route requests to the &ldquo;most suitable&rdquo; server. CDNs choose their own metric for defining which server is the most suitable. It can be the replica with the lowest latency, the replica with lowest loss, or a combination of multiple parameters.</p>
+
+<p><br></p>
+
+<p>In this exercise, you will create three replicas with the same content. You will also keep track of the delay and loss parameters to each replica. At the beginning, each replica will download some content from a website. When a request comes in, you will redirect the request to the most suitable replica (see the definition below), download the content, and close the connection. When the next request comes in, you will redirect that request to the most suitable replica at that time. The network conditions will change throughout the experiment.</p>
+
+<p><br></p>
+
+<p>The client and server communications may use TCP or UDP.
+<br></p>
+
+<p><br></p>
+
+<hr />
+
+<p><strong>Replica Server Specifications</strong></p>
+
+<hr />
+
+<p>The server takes two arguments:</p>
+
+<pre><code>$ replicaserver -p &lt;PORT&gt; -s &lt;LOG FILE LOCATION&gt; -p &lt;web page to download&gt;
+</code></pre>
+
+<p>1.<code>PORT</code> - The port server listens on.</p>
+
+<p>2.<code>Log file location</code> - Where you will keep a record of actions.</p>
+
+<p>3.<code>p</code> - Which webpage to download and serve.</p>
+
+<p>For example:</p>
+
+<pre><code>$ replicaserver -p 30000 -l /tmp/logfile -p www.nytimes.com
+</code></pre>
+
+<hr />
+
+<p>Functional requirements</p>
+
+<hr />
+
+<ol>
+<li>The server must open a TCP/UDP socket on the specified port number</li>
+<li>The server should gracefully process incorrect port number and exit with a non-zero error code</li>
+<li>The server should download the file specified by -p and save it to the memory</li>
+</ol>
+
+<hr />
+
+<p><strong><em>Redirector Specifications</em></strong></p>
+
+<hr />
+
+<p><br></p>
+
+<pre><code>$ redirector -s &lt;SERVER-IP&gt; -p &lt;PORT&gt; -l LOGFILE
+</code></pre>
+
+<p>The client takes three arguments:</p>
+
+<p>1.<code>Server IPs</code> - A list of replica servers&rsquo; IP addresses</p>
+
+<p>2.<code>PORT</code> - The port the servers listen on. They will all listen to the same port</p>
+
+<p>2.<code>Log file location</code> - Where you will keep a record of packets you received.</p>
+
+<pre><code>For example:
+$ redirector -s replica_servers.txt -p 6543 -l LOGFILE
+</code></pre>
+
+<p><br></p>
+
+<hr />
+
+<p>Protocol Specifications:</p>
+
+<hr />
+
+<ol>
+<li>Design your own protocol headers for most efficient communication between the redirector and the replicas</li>
+<li>The client should connect to the replica server that has the highest preference.</li>
+<li>We define the preference as lowest combined value of weighed delay and loss. Lower value wins.</li>
+<li>Preference = 0.75*loss percentage + 0.25*delay in milliseconds</li>
+<li>The redirector should probe the replica servers periodically and keep a list of preferences. You should be able to use a ping like program for this part.</li>
+<li>The redirector should be able to accept and process multiple connection from clients at the same time</li>
+</ol>
+
+<hr />
+
+<p><strong><em>Client Specifications</em></strong></p>
+
+<hr />
+
+<p><br></p>
+
+<pre><code>$ anonclient -s &lt;REDIRECTOR-IP&gt; -p &lt;PORT&gt; -l LOGFILE
+</code></pre>
+
+<p>The client takes three arguments:</p>
+
+<p>1.<code>REDIRECTOR IP</code> - The IP address of the redirector.</p>
+
+<p>2.<code>PORT</code> - The port the server listens on.</p>
+
+<p>2.<code>Log file location</code> - Where you will keep a record of packets you received.</p>
+
+<pre><code>For example:
+$ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE
+</code></pre>
+
+<hr />
+
+<p><strong>Client Requirements</strong></p>
+
+<hr />
+
+<ol>
+<li>The client will simply open a connection to the redirector and request a content</li>
+<li>Design your own protocol headers for most efficient communication between the client and the redirector</li>
+<li>The client should be able to receive the content and write to a file</li>
+<li>The client should gracefully process incorrect port number and exit with a non-zero error code (you can assume that the folder is always correct). In addition to exit, the client must print out on standard error (std::cerr) an error message that starts with ERROR: string.</li>
+</ol>
+
+<hr />
+
+<p><strong>Additional requirements:</strong></p>
+
+<hr />
+
+<ol>
+<li>Code must compile/run on Google Cloud Ubuntu VM (18.04) - we will test your code only on the VM.</li>
+
+<li><p>For each packet received, log interaction at the redirector in the following format:</p>
+
+<pre><code>Request from &lt;CLIENT IP&gt; for  &lt;URL&gt;. Redirecting to &lt;Replica IP&gt;, Preference &lt;Preference&gt;, Next Preference was &lt;Next lowest preference&gt; to &lt;Replica IP&gt;
+Response from &lt;Replica IP&gt;, sending request to &lt;Client IP&gt;
+
+</code></pre></li>
+
+<li><p>If error occurs: log the following:</p>
+
+<pre><code>&quot;Error: Unable to handle request between &lt;Client IP&gt;, &lt;Replica IP&gt;, &lt;Preference&gt;, &lt;Error details&gt;
+</code></pre></li>
+</ol>
 
   </div>
 </section>

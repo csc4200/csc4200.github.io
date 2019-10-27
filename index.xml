@@ -21,6 +21,22 @@ Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce D
     </item>
     
     <item>
+      <title>Create your own content delivery network</title>
+      <link>https://csc4200.github.io/programming3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://csc4200.github.io/programming3/</guid>
+      <description>Due Date - October 20, 2019, 10PM CST Objectives
+ Learn to break down a very complex problem into smaller problems
+ Solve each smaller problem and bring them together to solve the larger problem
+ Learn how CDNs work and build your own CDN
+  Overview
+
+
+In this project, you are going to build on the first and the second project. You will build your own &amp;ldquo;cloud&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>Programming Assignment</title>
       <link>https://csc4200.github.io/programming1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
