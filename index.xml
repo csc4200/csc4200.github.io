@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking and the Internet</title>
-    <link>https://csc4200.github.io/</link>
+    <link>https://tntech-ngin.github.io/</link>
     <description>Recent content on Networking and the Internet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://csc4200.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tntech-ngin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Course Material</title>
-      <link>https://csc4200.github.io/material/</link>
+      <link>https://tntech-ngin.github.io/material/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csc4200.github.io/material/</guid>
+      <guid>https://tntech-ngin.github.io/material/</guid>
       <description>Textbook We will be using the following book. It is open source and you can use PDF or the EPUB version. You can also view the HTML pages here.
 Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce Davie Copyright: Elsevier, 2012 Source: https://github.com/SystemsApproach License: CC BY 4.0  Raspberry Pi - We will be using Raspberry PIs for the third project. You will need to buy one but you get to keep it at the end of the semester.</description>
     </item>
     
     <item>
       <title>Create your own content delivery network</title>
-      <link>https://csc4200.github.io/programming3/</link>
+      <link>https://tntech-ngin.github.io/programming3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csc4200.github.io/programming3/</guid>
+      <guid>https://tntech-ngin.github.io/programming3/</guid>
       <description>Due Date - November 27, 2019, 10PM CST Objectives
  Learn to break down a very complex problem into smaller problems
  Solve each smaller problem and bring them together to solve the larger problem
@@ -38,10 +38,10 @@ In this project, you are going to build on the first and the second project. You
     
     <item>
       <title>Programming Assignment</title>
-      <link>https://csc4200.github.io/programming1/</link>
+      <link>https://tntech-ngin.github.io/programming1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csc4200.github.io/programming1/</guid>
+      <guid>https://tntech-ngin.github.io/programming1/</guid>
       <description>Due Date - Sept 13, 2019 Objectives
  Learn to create network packets.
  Learn how packets can be sent over the network.
@@ -56,10 +56,10 @@ In this warmup project, you are going to implement a client and a server program
     
     <item>
       <title>Syllabus</title>
-      <link>https://csc4200.github.io/syllabus/</link>
+      <link>https://tntech-ngin.github.io/syllabus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csc4200.github.io/syllabus/</guid>
+      <guid>https://tntech-ngin.github.io/syllabus/</guid>
       <description>This is a tentative schedule and will change.
 Week 1 - August 26, 28, 30 - Introduction, Network terminologies, Architecture vs Protocols - Lecture 1, Lecture 2, Lecture 3
 September 2 - Labor day, no class
@@ -69,10 +69,10 @@ Week 3 - September 9, 11, 13 - Link layer continued</description>
     
     <item>
       <title>To the Cloud and Back</title>
-      <link>https://csc4200.github.io/programming2/</link>
+      <link>https://tntech-ngin.github.io/programming2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csc4200.github.io/programming2/</guid>
+      <guid>https://tntech-ngin.github.io/programming2/</guid>
       <description>Due Date - October 20, 2019, 10PM CST Objectives
  Learn to create robust network protocols
  Learn about reliable communication
