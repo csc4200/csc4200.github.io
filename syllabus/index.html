@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Networking and the Internet</title>
+    
+<link rel="icon" type="image/png" href="https://tntech-ngin.github.io/csc4200/images/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/csc4200/css/style.min.935e01877f3fe822639dd24b80b109be7e7e2326332395c597cbc7077faa0e4d.css" integrity="sha256-k14Bh38/6CJjndJLgLEJvn5&#43;IyYzI5XFl8vHB3&#43;qDk0=">
+<link rel="stylesheet" type="text/css" href="https://tntech-ngin.github.io/csc4200/css/icons.css">
+
+  </head>
+  <body>
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    
+
+    
+
+
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/csc4200/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="/syllabus/index.html" class="navbar-item is-secondary">
+            Syllabus
+          </a>
+          <a href="/material/index.html" class="navbar-item is-secondary">
+            Material
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Programming Assignments
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/programming1/index.html" class="navbar-item">
+                Assignment 1
+              </a>
+              <a href="/programming2/index.html" class="navbar-item">
+                Assignment 2
+              </a>
+              <a href="/programming3/index.html" class="navbar-item">
+                Assignment 3
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Homeworks
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/homeworks/homework1.pdf" class="navbar-item">
+                Homework 1
+              </a>
+              <a href="/homeworks/homework2.pdf" class="navbar-item">
+                Homework 2
+              </a>
+              <a href="/homeworks/homework3.pdf" class="navbar-item">
+                Homework3
+              </a>
+              <a href="/homeworks/homework4.pdf" class="navbar-item">
+                Homework4
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/csc4200/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="/syllabus/index.html" class="navbar-item is-secondary">
+          Syllabus
+        </a>
+        <a href="/material/index.html" class="navbar-item is-secondary">
+          Material
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Programming Assignments
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/programming1/index.html" class="navbar-item">
+              Assignment 1
+            </a>
+            <a href="/programming2/index.html" class="navbar-item">
+              Assignment 2
+            </a>
+            <a href="/programming3/index.html" class="navbar-item">
+              Assignment 3
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Homeworks
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/homeworks/homework1.pdf" class="navbar-item">
+              Homework 1
+            </a>
+            <a href="/homeworks/homework2.pdf" class="navbar-item">
+              Homework 2
+            </a>
+            <a href="/homeworks/homework3.pdf" class="navbar-item">
+              Homework3
+            </a>
+            <a href="/homeworks/homework4.pdf" class="navbar-item">
+              Homework4
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Syllabus</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <p><strong>This is a tentative schedule and will change.</strong></p>
+<hr>
+<p>Week 1 - August 26, 28, 30 - Introduction, Network terminologies, Architecture vs Protocols - <a href="/lecture_slides/lecture1.pdf">Lecture 1</a>, <a href="/lecture_slides/lecture2.pdf">Lecture 2</a>,  <a href="/lecture_slides/lecture3.pdf">Lecture 3</a></p>
+<hr>
+<p><em><strong>September 2 - Labor day, no class</strong></em></p>
+<hr>
+<h2 id="week-2---september-4-6---connecting-machines-reliable-delivery-ethernet-access-protocols-lecture-4lecture_slideslecture4pdf-lecture5lecture_slideslecture5pdf-lecture-6lecture_slideslecture6pdf">Week 2 - September 4, 6 - Connecting machines, Reliable Delivery, Ethernet, Access protocols <a href="/lecture_slides/lecture4.pdf">Lecture 4</a>, <a href="/lecture_slides/lecture5.pdf">Lecture5</a>, <a href="/lecture_slides/lecture6.pdf">Lecture 6</a></h2>
+<p><em><strong>September 8 - Last date to drop class</strong></em></p>
+<hr>
+<p>Week 3 - September 9, 11, 13 - Link layer continued</p>
+<hr>
+<p><strong>September 13 - Project 1 Due</strong></p>
+<hr>
+<p>Week 4 - September 18, 20, 23, 25, 27 - Packet Switching, Internetworking, NAT, IPv6, Routing <a href="/lecture_slides/lecture7.pdf">Lecture7</a>, <a href="/lecture_slides/lecture8.pdf">Lecture8</a>, <a href="/lecture_slides/lecture9.pdf">Lecture 9</a>, <a href="/lecture_slides/lecture10.pdf">Lecture10</a>, <a href="/lecture_slides/lecture11.pdf">Lecture11</a></p>
+<hr>
+<p>Week 5 -  September 30, October 2, 4 -  Routing <a href="/lecture_slides/lecture12.pdf">Lecture12</a> <a href="/lecture_slides/lecture13">Lecture13</a>, <a href="/lecture_slides/lecture14.pdf">Lecture14</a></p>
+<hr>
+<p>Week 6 - October 7, 9, 11 - Midterm Review, Routing, BGP <a href="/lecture_slides/lecture14.pdf">Lecture14</a>, <a href="/lecture_slides/lecture15.pdf">Lecture15</a></p>
+<hr>
+<p><em><strong>October 11 - Midterm</strong></em>
+<em><strong>October 14 - Fall break, no class</strong></em></p>
+<hr>
+<p>Week 7 - October 16, 18 - BGP continued, Global Internet , <a href="/lecture_slides/lecture16.pdf">Lecture16</a></p>
+<hr>
+<p><strong>October 15 - Project 2 Due</strong></p>
+<hr>
+<p>Week 8, 9 - October 21 -Nov 4 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS , <a href="/lecture_slides/lecture17.pdf">Lecture17</a>, <a href="/lecture_slides/lecture18.pdf">Lecture18</a>, , <a href="/lecture_slides/lecture19.pdf">Lecture19</a>, <a href="/lecture_slides/lecture20.pdf">Lecture20</a>, <a href="/lecture_slides/lecture21.pdf">Lecture21</a>, <a href="/lecture_slides/lecture22.pdf">Lecture22</a>, <a href="/lecture_slides/lecture23.pdf">Lecture23</a>, <a href="/lecture_slides/lecture24.pdf">Lecture24</a></p>
+<hr>
+<p>Week 10 - Nov 6, Nov 8 - Applications - Web, DNS, Email <a href="/lecture_slides/Lecture25.pdf">Lecture25</a>, <a href="/lecture_slides/lecture26.pdf">Lecture26</a></p>
+<hr>
+<p>Week 11 - November 11, 13, 15 - Network security <a href="/lecture_slides/lecture27.pdf">Lecture27</a></p>
+<hr>
+<p><strong>November 27 - Project 3 Due</strong></p>
+<hr>
+<p>Week 12 - November 18, 20, 22 - Next generation network - Software Defined Network and Named Data Networking</p>
+<hr>
+<p>Week 13 - November 25 - Next generation network - Software Defined Network and Named Data Networking continued.</p>
+<hr>
+<p><em><strong>November 27, 29- Thanksgiving break, no classes</strong></em></p>
+<hr>
+<p>Week 14 - December 2, 4, 6 - Review of meterials, project demo, and wrap-up</p>
+<hr>
+<p><em><strong>Final exam - December 9, Monday 1:00-3:00PM</strong></em></p>
+
+  </div>
+</section>
+
+
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/csc4200/images/logos/fresh-white-alt.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      
+      <li>
+        <a href="/csc4200/material/">
+          Course Material
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/programming3/">
+          Create your own content delivery network
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/programming1/">
+          Programming Assignment
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/syllabus/">
+          Syllabus
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/programming2/">
+          To the Cloud and Back
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://tntech-ngin.github.io/csc4200/js/fresh.js"></script>
+<script src="https://tntech-ngin.github.io/csc4200/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </body>
+</html>
