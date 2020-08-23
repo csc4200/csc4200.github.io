@@ -1,0 +1,87 @@
+baseURL: https://tntech-ngin.github.io/csc4200/
+languageCode: en-us
+title: Networking and the Internet
+theme: hugo-fresh
+
+
+params:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+   image: logos/logo.svg
+   link: /csc4200
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: CSC4200/5200 - Computer Networks
+    # Hero subtitle (optional)
+    subtitle: Connect your toaster to the Internet
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "/syllabus/index.html"
+    # Hero image (from static/images/___)
+    image: illustrations/iot.jpg
+    # Footer logos (from static/images/logos/clients/___.svg)
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Syllabus
+    url: /csc4200/syllabus/index.html
+  - title: Material
+    url: /csc4200/material/index.html
+  - title: Programming Assignments
+    sublinks:
+    - title: Assignment 1
+      url: /csc4200/programming1/index.html
+#    - title: Assignment 2
+#      url: /csc4200/programming2/index.html
+#    - title: Assignment 3
+#      url: /csc4200/programming3/index.html
+  - title: Homeworks
+    sublinks:
+    - title: Homework 1
+      url: /csc4200/homeworks/homework1.pdf
+#    - title: Homework 2
+ #     url: /csc4200/homeworks/homework2.pdf
+ #   - title: Homework3
+ #     url: /csc4200/homeworks/homework3.pdf
+ #   - title: Homework4
+ #     url: /csc4200/homeworks/homework4.pdf
+  section1:
+    title: Objectives
+    tiles:
+    - title: Learn Network Fundamentals
+      icon: mouse-globe
+      text: What does it take to build the Internet?
+      url: "/csc4200/syllabus/index.html"
+      buttonText: Learn
+    - title: Develop Network Software
+      icon: laptop-cloud
+      text: Learn socket programming and protocol develpment
+      url: "/csc4200/programming1/index.html"
+      buttonText: Code
+    - title: Interface with Physical Things
+      icon: plug-cloud
+      text: Physical Computing - Build a network of things
+      url: /csc4200/
+      buttonText: Build
+  section2:
+    title: Overview and Logistics
+    features:
+    - title:
+      text: "Always wanted to build an Internet connected toaster? Want to learn how to control a rover on Mars? This class is for you! We will start by learing the basics of networking and make our way up to creating real-world applications. You will learn socket programming, fundamentals of protocols that make the Internet work, and a glimps of what the future of Networking looks like.   You learn the theories of networking, create real-world prototypes, and collaborate with other students."
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Instructor - Susmit Shannigrahi
+      text: Office Hours - Wednesday 1100-1200 and 1430-1630 in Foundation Hall 132
+      icon: doc-sync
+    - title: GTA - David Reddick
+      text: Office Hours - Wednesday 1430-1600 in Foundation Hall 216
+      icon: mobile-feed
+    - title: Class Mailing List
+      text: TBA
+      icon: mobile-feed
+      # Icon (from /images/illustrations/icons/___.svg)
+
+
