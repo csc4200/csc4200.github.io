@@ -1,27 +1,48 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking and the Internet</title>
     <link>https://tntech-ngin.github.io/</link>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking and the Internet</title>
+    <link>https://tntech-ngin.github.io/csc4200/</link>
+>>>>>>> gh-pages
     <description>Recent content on Networking and the Internet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
+<<<<<<< HEAD
 	<atom:link href="https://tntech-ngin.github.io/index.xml" rel="self" type="application/rss+xml" />
+=======
+	<atom:link href="https://tntech-ngin.github.io/csc4200/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> gh-pages
     
     
     <item>
       <title>Course Material</title>
+<<<<<<< HEAD
       <link>https://tntech-ngin.github.io/material/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tntech-ngin.github.io/material/</guid>
       <description>Textbook We will be using the following book. It is open source and you can use PDF or the EPUB version. You can also view the HTML pages here.
 Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce Davie Copyright: Elsevier, 2012 Source: https://github.com/SystemsApproach License: CC BY 4.0  Raspberry Pi - We will be using Raspberry PIs for the third project. You will need to buy one but you get to keep it at the end of the semester.</description>
+=======
+      <link>https://tntech-ngin.github.io/csc4200/material/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.github.io/csc4200/material/</guid>
+      <description>Textbook We will be using the following book. It is open source and you can use PDF or the EPUB version. You can also view the HTML pages here.  Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce Davie Copyright: Elsevier, 2012 Source: https://github.com/SystemsApproach License: CC BY 4.0 Raspberry Pi - We will be using Raspberry PIs for the third project. You will need to buy one but you get to keep it at the end of the semester.</description>
+>>>>>>> gh-pages
     </item>
     
     <item>
       <title>Create your own content delivery network</title>
+<<<<<<< HEAD
       <link>https://tntech-ngin.github.io/programming3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,10 +55,23 @@ Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce D
 
 
 In this project, you are going to build on the first and the second project. You will build your own &amp;ldquo;CDN load-balancer&amp;rdquo;.</description>
+=======
+      <link>https://tntech-ngin.github.io/csc4200/programming3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.github.io/csc4200/programming3/</guid>
+      <description>Due Date - November 27, 2019, 10PM CST  Objectives
+   Learn to break down a very complex problem into smaller problems
+  Solve each smaller problem and bring them together to solve the larger problem
+  Learn how CDNs work and build your own CDN
+   Overview
+ In this project, you are going to build on the first and the second project. You will build your own &amp;ldquo;CDN load-balancer&amp;rdquo;.</description>
+>>>>>>> gh-pages
     </item>
     
     <item>
       <title>Programming Assignment</title>
+<<<<<<< HEAD
       <link>https://tntech-ngin.github.io/programming1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,10 +86,25 @@ In this project, you are going to build on the first and the second project. You
 Overview
 
 In this warmup project, you are going to implement a client and a server program that will send a command over the network.</description>
+=======
+      <link>https://tntech-ngin.github.io/csc4200/programming1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.github.io/csc4200/programming1/</guid>
+      <description>Due Date - Sept 13, 2019  Objectives
+   Learn to create network packets.
+  Learn how packets can be sent over the network.
+  Familiarize you with the concept of sockets.
+  Learn packing structures, endianness, unpacking, and interpreting network data.
+  Learn how to use actual data from a packet.
+  Use packet capture to visually inspect protocols.
+   Overview</description>
+>>>>>>> gh-pages
     </item>
     
     <item>
       <title>Syllabus</title>
+<<<<<<< HEAD
       <link>https://tntech-ngin.github.io/syllabus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -65,10 +114,24 @@ Week 1 - August 26, 28, 30 - Introduction, Network terminologies, Architecture v
 September 2 - Labor day, no class
 Week 2 - September 4, 6 - Connecting machines, Reliable Delivery, Ethernet, Access protocols Lecture 4, Lecture5, Lecture 6 September 8 - Last date to drop class
 Week 3 - September 9, 11, 13 - Link layer continued</description>
+=======
+      <link>https://tntech-ngin.github.io/csc4200/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.github.io/csc4200/syllabus/</guid>
+      <description>This is a tentative schedule and will change.
+ Week 1 - Introduction, Network terminologies, Architecture vs Protocols
+ Lecture 1 Lecture 2 Lecture 3   September 6 - Last date to drop class
+ September 7 - Labor day, no class
+ September 7th - Project 1 Due
+ Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols
+ Lecture 4 Lecture 5 Lecture 6   Week 3 - Link layer continued</description>
+>>>>>>> gh-pages
     </item>
     
     <item>
       <title>To the Cloud and Back</title>
+<<<<<<< HEAD
       <link>https://tntech-ngin.github.io/programming2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -80,6 +143,19 @@ Week 3 - September 9, 11, 13 - Link layer continued</description>
   Overview
 
 In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory.</description>
+=======
+      <link>https://tntech-ngin.github.io/csc4200/programming2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.github.io/csc4200/programming2/</guid>
+      <description>Due Date - October 20, 2019, 10PM CST  Objectives
+   Learn to create robust network protocols
+  Learn about reliable communication
+  How a premitive proxy might work. You can use this to get around sensorship or firewalls.
+   Overview
+ $ anonserver -p &amp;lt;PORT&amp;gt; -s &amp;lt;LOG FILE LOCATION&amp;gt; -p &amp;lt;web page to download&amp;gt; 1.PORT - The port server listens on.
+2.Log file location - Where you will keep a record of actions.</description>
+>>>>>>> gh-pages
     </item>
     
   </channel>
