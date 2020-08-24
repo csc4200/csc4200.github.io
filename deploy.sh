@@ -1,7 +1,8 @@
 #!/bin/bash
 echo -e "Deploying updates to GitHub..."
 hugo
-mv public docs
+rm -rf docs
+mv public/ docs/
 git add --all && git commit -m "Publishing to master"
 git push origin master
 
