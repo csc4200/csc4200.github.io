@@ -95,6 +95,7 @@ Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continu
 <!-- * [Lecture 23](/csc4200/lecture_slides/lecture23.pdf) -->
 <!-- * [Lecture 24](/csc4200/lecture_slides/lecture24.pdf) -->
 
+
 ------------------------------------------
 
 **November 6th - Last Day to drop a class with a "W" grade**
