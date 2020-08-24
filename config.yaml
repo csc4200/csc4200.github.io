@@ -53,7 +53,7 @@ params:
     tiles:
     - title: Learn Network Fundamentals
       icon: mouse-globe
-      text: What does it take to build the Internet?
+      eext: What does it take to build the Internet?
       url: "/csc4200/syllabus/index.html"
       buttonText: Learn
     - title: Develop Network Software

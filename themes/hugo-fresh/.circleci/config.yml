@@ -61,7 +61,7 @@ jobs:
 
       - run:
           name: Create now.json
-          working_directory: my-site/public
+          working_directory: my-site/docs
           command: |
             URL=hugo-fresh-$(echo $CIRCLE_BRANCH | tr _ -)
             if [ $CIRCLE_BRANCH == "master" ]; then
@@ -81,5 +81,5 @@ jobs:
             apk add libstdc++ libgcc
       - run:
           name: Publish to now.sh
-          working_directory: my-site/public
+          working_directory: my-site/docs
           command: now --target production --token ${NOW_TOKEN}
