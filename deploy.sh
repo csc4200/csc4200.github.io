@@ -1,8 +1,9 @@
 #!/bin/bash
 echo -e "Deploying updates to GitHub..."
 hugo
-git add --all && git commit -m "Publishing to master" && cd ..
+git add --all && git commit -m "Publishing to master"
 git push origin master
+
 cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
 git push origin gh-pages 
 
