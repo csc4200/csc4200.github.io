@@ -1,11 +1,12 @@
 #!/bin/bash
 echo -e "Deploying updates to GitHub..."
 hugo
+mv public docs
 git add --all && git commit -m "Publishing to master"
 git push origin master
 
-cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
-git push origin gh-pages 
+#cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
+#git push origin gh-pages 
 
 # Build the project.
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
