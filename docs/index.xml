@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tntech-ngin.github.io/csc4200/material/</guid>
-      <description>Textbook We will be using the following book. It is open source and you can use PDF or the EPUB version. You can also view the HTML pages here.  Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce Davie Copyright: Elsevier, 2012 Source: https://github.com/SystemsApproach License: CC BY 4.0 Raspberry Pi - We will be using Raspberry PIs for the third project. You will need to buy one but you get to keep it at the end of the semester.</description>
+      <description>Textbook We will be using the following book. It is open source and you can use PDF or the EPUB version. You can also view the HTML pages here.  Title: Computer Networks: A Systems Approach Authors: Larry Peterson and Bruce Davie Copyright: Elsevier, 2012 Source: https://github.com/SystemsApproach License: CC BY 4.0 Raspberry Pi - We will be using Raspberry PIs for the third project. We are trying to set this up.</description>
     </item>
     
     <item>
@@ -57,13 +57,12 @@
       <guid>https://tntech-ngin.github.io/csc4200/syllabus/</guid>
       <description>This is a tentative schedule and will change.
  Week 1 - Introduction, Network terminologies, Architecture vs Protocols
- September 6 - Last date to drop class
+ Lecture 1   September 6 - Last date to drop class
  September 7 - Labor day, no class
  September 7th - Homework 1 Due
  Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols
  Week 3 - Link layer continued
- September 20th - Project 1 Due
- Week 4 - Packet Switching, Internetworking, NAT, IPv6, Routing</description>
+ September 20th - Project 1 Due</description>
     </item>
     
     <item>

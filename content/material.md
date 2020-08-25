@@ -14,17 +14,15 @@ Title: Computer Networks: A Systems Approach
     Source: https://github.com/SystemsApproach
     License: CC BY 4.0
 ```
-2. **Raspberry Pi** - We will be using Raspberry PIs for the third project. You will need to buy one but you get to keep it at the end of the semester.(TODO: exact spec)
+2. **Raspberry Pi** - We will be using Raspberry PIs for the third project. We are trying to set this up. 
 + **Socket Programming Book** - Use [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) for socket programming introduction.
 + **Make** - You will be using makefiles to compile the projects. [Here](http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/) is a short but useful tutorial.
 
 
 3. Grading criteria:
     * All Homeworks combined - 15%
-    * Programming Assignment 1 - 5%
-    * Programming Assignment 2 - 10%
-    * Programming Assignement 3 + demo - 15+5 %
-    * Midterm - 25%
-    * Final (Comprehensive) - 25%
+    * Programming Assignments - 35%
+    * Exams - 35%
+    * Class participation - 15%
 
 Final grade will depend on relative distribution of scores.
