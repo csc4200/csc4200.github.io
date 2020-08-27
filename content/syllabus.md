@@ -8,7 +8,7 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 
 ------------------------------------------
 Week 1 - Introduction, Network terminologies, Architecture vs Protocols
-* [Lecture  1](/csc4200/lecture_slides/lecture1.pdf)
+* [Lecture  1](/csc4200/lecture_slides/lecture1.pdf), [Recording](/csc4200/recordings/august-26.mp4)
 <!-- * [Lecture  2](/csc4200/lecture_slides/lecture2.pdf) -->
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
 
