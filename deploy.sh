@@ -2,7 +2,7 @@
 echo -e "Deploying updates to GitHub..."
 hugo
 rm -rf docs
-mv public/ docs/
+cp -r public/ docs/
 git add --all && git commit -m "Publishing to master"
 git push origin master
 
