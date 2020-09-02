@@ -16,6 +16,14 @@ Week 1 - Introduction, Network terminologies, Architecture vs Protocols
 
 ------------------------------------------
 
+Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols 
+* [Lecture  4](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/september-02.mp4)
+<!-- * [Lecture 5](/csc4200/lecture_slides/lecture5.pdf) -->
+<!-- * [Lecture 6](/csc4200/lecture_slides/lecture6.pdf) -->
+
+------------------------------------------
+
+
 ***September 6 - Last date to drop class***
 
 ------------------------------------------
@@ -26,12 +34,6 @@ Week 1 - Introduction, Network terminologies, Architecture vs Protocols
 
 **September 7th - Homework 1 Due**
 
-------------------------------------------
-
-Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols 
-* [Lecture  4](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/september-02.mp4)
-<!-- * [Lecture 5](/csc4200/lecture_slides/lecture5.pdf) -->
-<!-- * [Lecture 6](/csc4200/lecture_slides/lecture6.pdf) -->
 
 ------------------------------------------
 
