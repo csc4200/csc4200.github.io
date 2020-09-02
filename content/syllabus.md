@@ -11,7 +11,8 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 Week 1 - Introduction, Network terminologies, Architecture vs Protocols
 * [Lecture  1](/csc4200/lecture_slides/lecture1.pdf), [Recording](/csc4200/recordings/august-26.mp4)
 * [Lecture  2](/csc4200/lecture_slides/lecture2.pdf), [Recording](/csc4200/recordings/august-28.mp4)
-<!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
+* [Lecture  3](/csc4200/lecture_slides/lecture3.pdf), [Recording](/csc4200/recordings/august-31.mp4)
+<!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf)
 
 ------------------------------------------
 
@@ -28,7 +29,7 @@ Week 1 - Introduction, Network terminologies, Architecture vs Protocols
 ------------------------------------------
 
 Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols 
-<!-- * [Lecture 4](/csc4200/lecture_slides/lecture4.pdf) -->
+* [Lecture  4](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/september-02.mp4)
 <!-- * [Lecture 5](/csc4200/lecture_slides/lecture5.pdf) -->
 <!-- * [Lecture 6](/csc4200/lecture_slides/lecture6.pdf) -->
 
