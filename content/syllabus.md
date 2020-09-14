@@ -41,6 +41,7 @@ Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols
 ------------------------------------------
 
 Week 3 - Link layer continued
+* [Lecture 6](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-14.mp4)
 
 ------------------------------------------
 
