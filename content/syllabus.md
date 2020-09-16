@@ -18,7 +18,7 @@ Week 1 - Introduction, Network terminologies, Architecture vs Protocols
 
 Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols 
 * [Lecture  4](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-02.mp4)
-* [Socket Programming](/csc4200/lecture_slides/sockets.pdf), [Socket Programming Recording](/csc4200/recordings/sept-04.mp4)
+* [Socket Programming](/csc4200/lecture_slides/sockets.pdf), [Socket Programming Recording](/csc4200/recordings/socket.mp4)
 * [Lecture  4 Contd.](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-09.mp4)
 * [Lecture 5](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-11.mp4)
 
