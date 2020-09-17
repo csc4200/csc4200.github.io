@@ -61,6 +61,7 @@ ___
 4. Once it receives a hello message from the client, it logs the connection and sends a hello back to the client. 
 
 4. You can assume the packet format is the following:
+
 ```
 +-----------------+--------------------------+-------------------------+
 |                 |                          |                         |
@@ -76,17 +77,17 @@ ___
 |                                                                      |
 +----------------------------------------------------------------------+
 ```
-4. It receives the packet header first, followed by the message. _Hint: You need two RECV calls_.
+7. It receives the packet header first, followed by the message. _Hint: You need two RECV calls_.
 
-4. Check if Version == 17. If not, log an error message ```VERSION MISMATCH``` and continue to listen. Do not exit.
+8. Check if Version == 17. If not, log an error message ```VERSION MISMATCH``` and continue to listen. Do not exit.
 
-4. If Version == 17, check the message type. If message Type is 1 - the corresponding command is ```LIGHTON```. If message type is 2 - the corresponding command is ```LIGHTOFF```. No other command is supported.
+9. If Version == 17, check the message type. If message Type is 1 - the corresponding command is ```LIGHTON```. If message type is 2 - the corresponding command is ```LIGHTOFF```. No other command is supported.
 
-5. If the server sees a supported command, log "EXECUTING SUPPORTED COMMAND: COMMANDNAME", else log <"IGNORING UNKNOWN COMMAND: COMMANDNAME".
+10. If the server sees a supported command, log "EXECUTING SUPPORTED COMMAND: COMMANDNAME", else log <"IGNORING UNKNOWN COMMAND: COMMANDNAME".
 
-6. Send back a "SUCCESS" message to the client.
+11. Send back a "SUCCESS" message to the client.
 
-6. Make sure server does not exit on 0 byte messages.
+12. Make sure server does not exit on 0 byte messages.
 <br>
 
 ___
@@ -104,7 +105,7 @@ The client takes three arguments:
 
 2.```PORT``` - The port the server listens on.
 
-2.```Log file location``` - Where you will keep a record of packets you received.
+3.```Log file location``` - Where you will keep a record of packets you received.
 
 
 ```
@@ -118,11 +119,11 @@ ___
 ___
 <br>
 
-2. The client must parse three command line arguments, server, port, and logfile.
+4. The client must parse three command line arguments, server, port, and logfile.
 
-3. The client should connect to the server on the specified port.
+5. The client should connect to the server on the specified port.
 
-4. Constructs and sends a hello packet to the server. 
+6. Constructs and sends a hello packet to the server. 
 ```
 +-----------------+--------------------------+-------------------------+
 |                 |                          |                         |
@@ -139,9 +140,9 @@ ___
 +----------------------------------------------------------------------+
 ```
 
-5. Receive reply from Server - if version is 17, log "VERSION ACCEPTED", else log - "VERSION MISMATCH"
+7. Receive reply from Server - if version is 17, log "VERSION ACCEPTED", else log - "VERSION MISMATCH"
 
-7. If version is accepted, send a command packet.
+8. If version is accepted, send a command packet.
 
 ```
 +-----------------+--------------------------+-------------------------+
@@ -159,9 +160,9 @@ ___
 +----------------------------------------------------------------------+
 ```
 
-8. Receive the server's reply, log the reply, and gracefully shutdown the socket. You can assume the server always replies with a "SUCCESS" message for this assignment.
+9. Receive the server's reply, log the reply, and gracefully shutdown the socket. You can assume the server always replies with a "SUCCESS" message for this assignment.
 
-9. Use TCPDUMP or Wireshark to capture the interactions, turn the .pcap file in with the assignment.
+10. Use TCPDUMP or Wireshark to capture the interactions, turn the .pcap file in with the assignment.
 
 <br>
 
