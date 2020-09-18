@@ -175,4 +175,56 @@ ___
 
 2. Pay extra attention to byte-order encoding before sending the packet. Big-endianness is the dominant ordering in today's network protocols.
 
- 
+-------------
+Sample Output
+-------------
+
+**Server side**
+```
+Received connection from (IP, PORT):  ('127.0.0.1', 53888)
+Received Data: version: 17 message_type: 1 length: 1280
+VERSION ACCEPTED
+Received Data: version: 17 message_type: 2 length: 1792
+VERSION ACCEPTED
+EXECUTING SUPPORTED COMMAND:  LIGHTON
+Returning SUCCESS
+Received connection from (IP, PORT):  ('127.0.0.1', 53890)
+Received Data: version: 17 message_type: 1 length: 1280
+VERSION ACCEPTED
+Received Data: version: 17 message_type: 2 length: 1792
+VERSION ACCEPTED
+EXECUTING SUPPORTED COMMAND:  LIGHTON
+Returning SUCCESS
+```
+
+**Client Side**
+
+*Run 1*
+```Sending HELLO Packet
+Received Data: version: 17 type: 1 length: 1280
+VERSION ACCEPTED
+Received Message Hello
+Sending command
+Received Data: version: 17 type: 2 length: 1792
+VERSION ACCEPTED
+Received Message SUCCESS
+Command Successful
+Closing socket
+```
+
+*Run 2*
+```
+Sending HELLO Packet
+Received Data: version: 17 type: 1 length: 1280
+VERSION ACCEPTED
+Received Message Hello
+Sending command
+Received Data: version: 17 type: 2 length: 1792
+VERSION ACCEPTED
+Received Message SUCCESS
+Command Successful
+Closing socket
+
+```
+
+

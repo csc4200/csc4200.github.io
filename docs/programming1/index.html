@@ -352,7 +352,47 @@ $ lightclient -s 192.168.2.1 -p 6543 -l LOGFILE
 <p>Pay extra attention to byte-order encoding before sending the packet. Big-endianness is the dominant ordering in today&rsquo;s network protocols.</p>
 </li>
 </ol>
+<hr>
+<h2 id="sample-output">Sample Output</h2>
+<p><strong>Server side</strong></p>
+<pre><code>Received connection from (IP, PORT):  ('127.0.0.1', 53888)
+Received Data: version: 17 message_type: 1 length: 1280
+VERSION ACCEPTED
+Received Data: version: 17 message_type: 2 length: 1792
+VERSION ACCEPTED
+EXECUTING SUPPORTED COMMAND:  LIGHTON
+Returning SUCCESS
+Received connection from (IP, PORT):  ('127.0.0.1', 53890)
+Received Data: version: 17 message_type: 1 length: 1280
+VERSION ACCEPTED
+Received Data: version: 17 message_type: 2 length: 1792
+VERSION ACCEPTED
+EXECUTING SUPPORTED COMMAND:  LIGHTON
+Returning SUCCESS
+</code></pre><p><strong>Client Side</strong></p>
+<p><em>Run 1</em></p>
+<pre><code class="language-Sending" data-lang="Sending">Received Data: version: 17 type: 1 length: 1280
+VERSION ACCEPTED
+Received Message Hello
+Sending command
+Received Data: version: 17 type: 2 length: 1792
+VERSION ACCEPTED
+Received Message SUCCESS
+Command Successful
+Closing socket
+</code></pre><p><em>Run 2</em></p>
+<pre><code>Sending HELLO Packet
+Received Data: version: 17 type: 1 length: 1280
+VERSION ACCEPTED
+Received Message Hello
+Sending command
+Received Data: version: 17 type: 2 length: 1792
+VERSION ACCEPTED
+Received Message SUCCESS
+Command Successful
+Closing socket
 
+</code></pre>
   </div>
 </section>
 
