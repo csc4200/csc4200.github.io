@@ -41,8 +41,8 @@ Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols
 ------------------------------------------
 
 Week 3 - Link layer continued
-* [Lecture 6](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-14.mp4)
-* [Lecture 7](/csc4200/lecture_slides/lecture6.pdf), [Recording](/csc4200/recordings/sept-16.mp4)
+* [Lecture 5.1](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-14.mp4)
+* [Lecture 6](/csc4200/lecture_slides/lecture6.pdf), [Recording](/csc4200/recordings/sept-16.mp4)
 
 ------------------------------------------
 
@@ -52,6 +52,7 @@ Week 3 - Link layer continued
 
 Week 4 - Packet Switching, Internetworking, NAT, IPv6, Routing 
 * [Lecture 7](/csc4200/lecture_slides/lecture7.pdf), [Recording](/csc4200/recordings/sept-18.mp4)
+* [Study Guide](/csc4200/homeworks/study-guide.pdf)
 <!-- * [Lecture 8](/csc4200/lecture_slides/lecture8.pdf) -->
 <!-- * [Lecture 9](/csc4200/lecture_slides/lecture9.pdf) -->
 <!-- * [Lecture 10](/csc4200/lecture_slides/lecture10.pdf) -->
