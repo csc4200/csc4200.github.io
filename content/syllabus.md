@@ -51,9 +51,11 @@ Week 3 - Link layer continued
 ------------------------------------------
 
 Week 4 - Packet Switching, Internetworking, NAT, IPv6, Routing 
-* [Lecture 7](/csc4200/lecture_slides/lecture7.pdf), [Recording](/csc4200/recordings/sept-18.mp4)
 * [Study Guide](/csc4200/homeworks/study-guide.pdf)
-<!-- * [Lecture 8](/csc4200/lecture_slides/lecture8.pdf) -->
+
+* [Lecture 7](/csc4200/lecture_slides/lecture7.pdf), [Recording](/csc4200/recordings/sept-18.mp4)
+* [Lecture 8](/csc4200/lecture_slides/lecture9.pdf), [Recording](/csc4200/recordings/sept-21.mp4)
+* [Lecture 9](/csc4200/lecture_slides/lecture10.pdf), [Recording](/csc4200/recordings/sept-23.mp4)
 <!-- * [Lecture 9](/csc4200/lecture_slides/lecture9.pdf) -->
 <!-- * [Lecture 10](/csc4200/lecture_slides/lecture10.pdf) -->
 <!-- * [Lecture 11](/csc4200/lecture_slides/lecture11.pdf) -->
