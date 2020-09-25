@@ -34,8 +34,8 @@ params:
     sublinks:
     - title: Assignment 1
       url: /csc4200/programming1/index.html
-#    - title: Assignment 2
-#      url: /csc4200/programming2/index.html
+    - title: Assignment 2
+      url: /csc4200/programming2/index.html
 #    - title: Assignment 3
 #      url: /csc4200/programming3/index.html
   - title: Homeworks
