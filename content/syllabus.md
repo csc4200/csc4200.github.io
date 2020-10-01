@@ -56,7 +56,8 @@ Week 4 - Packet Switching, Internetworking, NAT, IPv6, Routing
 * [Lecture 7](/csc4200/lecture_slides/lecture7.pdf), [Recording](/csc4200/recordings/sept-18.mp4)
 * [Lecture 8](/csc4200/lecture_slides/lecture9.pdf), [Recording](/csc4200/recordings/sept-21.mp4)
 * [Lecture 9](/csc4200/lecture_slides/lecture10.pdf), [Recording Not Available]
-* [Lecture 8](/csc4200/lecture_slides/lecture10.pdf), [Recording](/csc4200/recordings/sept-25.mp4)
+* [Lecture 10](/csc4200/lecture_slides/lecture10.pdf), [Recording](/csc4200/recordings/sept-25.mp4)
+* [Lecture 11](/csc4200/lecture_slides/lecture11.pdf), [Recording](/csc4200/recordings/oct-2.mp4)
 <!-- * [Lecture 10](/csc4200/lecture_slides/lecture10.pdf) -->
 <!-- * [Lecture 11](/csc4200/lecture_slides/lecture11.pdf) -->
 
