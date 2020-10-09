@@ -57,9 +57,8 @@
       <guid>https://tntech-ngin.github.io/csc4200/syllabus/</guid>
       <description>This is a tentative schedule and will change.
  Week 1 - Introduction, Network terminologies, Architecture vs Protocols
- Lecture 1, Recording Lecture 2, Recording Lecture 3, Recording   Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols
- Lecture 4, Recording Socket Programming, Socket Programming Recording Lecture 4 Contd., Recording Lecture 5, Recording   September 6 - Last date to drop class
- September 7 - Labor day, no class</description>
+ Lecture 1, Recording, Introduction, Circuit vs Packet Switching, Layers, Architectures vs Protocols Lecture 2, Recording, TDM/FDM, Bandwidth/Delay, Jitter Lecture 3, Recording, Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC   Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols
+ Lecture 4, Recording, Reliable Delivery, Stop-n-wait, sliding window Socket Programming, Socket Programming Recording Lecture 4 Contd.</description>
     </item>
     
     <item>

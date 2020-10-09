@@ -9,18 +9,18 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 
 ------------------------------------------
 Week 1 - Introduction, Network terminologies, Architecture vs Protocols
-* [Lecture  1](/csc4200/lecture_slides/lecture1.pdf), [Recording](/csc4200/recordings/august-26.mp4)
-* [Lecture  2](/csc4200/lecture_slides/lecture2.pdf), [Recording](/csc4200/recordings/august-28.mp4)
-* [Lecture  3](/csc4200/lecture_slides/lecture3.pdf), [Recording](/csc4200/recordings/august-31.mp4)
+* [Lecture  1](/csc4200/lecture_slides/lecture1.pdf), [Recording](/csc4200/recordings/august-26.mp4), Introduction, Circuit vs Packet Switching, Layers, Architectures vs Protocols
+* [Lecture  2](/csc4200/lecture_slides/lecture2.pdf), [Recording](/csc4200/recordings/august-28.mp4), TDM/FDM, Bandwidth/Delay, Jitter 
+* [Lecture  3](/csc4200/lecture_slides/lecture3.pdf), [Recording](/csc4200/recordings/august-31.mp4), Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
 
 ------------------------------------------
 
 Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols 
-* [Lecture  4](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-02.mp4)
+* [Lecture  4](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-02.mp4), Reliable Delivery, Stop-n-wait, sliding window
 * [Socket Programming](/csc4200/lecture_slides/sockets.pdf), [Socket Programming Recording](/csc4200/recordings/socket.mp4)
-* [Lecture  4 Contd.](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-09.mp4)
-* [Lecture 5](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-11.mp4)
+* [Lecture  4 Contd.](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-09.mp4), Reliable Delivery, Stop-n-wait, sliding window
+* [Lecture 5](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-11.mp4), Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidanceRecap
 
 <!-- * [Lecture 6](/csc4200/lecture_slides/lecture6.pdf) -->
 
@@ -41,8 +41,8 @@ Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols
 ------------------------------------------
 
 Week 3 - Link layer continued
-* [Lecture 5.1](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-14.mp4)
-* [Lecture 6](/csc4200/lecture_slides/lecture6.pdf), [Recording](/csc4200/recordings/sept-16.mp4)
+* [Lecture 5.1](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-14.mp4), Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance
+* [Lecture 6](/csc4200/lecture_slides/lecture6.pdf), [Recording](/csc4200/recordings/sept-16.mp4), 
 
 ------------------------------------------
 
@@ -78,17 +78,12 @@ Week 7 - BGP continued, Global Internet
 <!-- * [Lecture 16](/csc4200/lecture_slides/lecture16.pdf) -->
 
 ------------------------------------------
-**October 7 - Homework 2 Due**
-
-**Midterm**
-
-------------------------------------------
 
 **October 12 - Fall break, no class**
 
 ------------------------------------------
 
-**October 20 - Project 3 Due**
+**October 20 - Project 2 Due**
 
 ------------------------------------------
 
@@ -113,7 +108,7 @@ Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continu
 
 ------------------------------------------
 
-**November 7th - Homework 3 Due**
+**November 20th - Homework 3 Due**
 
 ------------------------------------------
 
