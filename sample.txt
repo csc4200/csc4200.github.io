@@ -1,0 +1,17 @@
+def create_packet(**kwargs):
+{
+......
+    data = struct.pack('!I', s_n) #pack the version
+    data += struct.pack('!I', a_n) #pack the version
+    data += struct.pack('!{0}s'.format(len(padding), padding)) #pack the version
+    data += struct.pack("!c", ack) #pack the length of string
+    data += struct.pack("!c", syn) #pack the length of string
+    data += struct.pack("!c", fin) #pack the length of string
+    data += struct.pack("{0}s".format(len(data),data))
+    data += m_s.encode() #pack the data
+......    
+}
+
+
+
+send_data = create_packet(sequence_number=100, ack_numeber=0, ack = 'Y', SYN = 'N', FIN = 'N', data)

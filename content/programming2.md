@@ -3,7 +3,7 @@ title: "To the Cloud and Back"
 sidebar: true # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
 ---
-## Due Date - October 20, 2019, 10PM CST
+## Due Date - October 20, 2020, 10PM CST
 ___
 **Objectives**
 ___
@@ -167,3 +167,21 @@ ___
 ```
 "RETRAN" <Sequence Number> <Acknowledgement Number> ["ACK"] ["SYN"] ["FIN"]
 ```
+
+---
+**Hints**
+---
+
+`  def create_packet(**kwargs):`
+
+    data = struct.pack('!I', s_n) #pack the version
+    ....
+    data += struct.pack("!c", ack) #pack the ACK
+    data += struct.pack("!c", syn) #pack the SYN
+    data += struct.pack("!c", fin) #pack the FIN
+    ....
+    return data    
+    
+`send_data = create_packet(sequence_number=100, ack_number=0, ack = 'Y', syn = 'N', fin = 'N', payload=data)    `
+
+	

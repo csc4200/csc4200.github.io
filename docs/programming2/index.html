@@ -193,7 +193,7 @@
         <div class="divider"></div>
       </div>
     </div>
-    <h2 id="due-date---october-20-2019-10pm-cst">Due Date - October 20, 2019, 10PM CST</h2>
+    <h2 id="due-date---october-20-2020-10pm-cst">Due Date - October 20, 2020, 10PM CST</h2>
 <hr>
 <p><strong>Objectives</strong></p>
 <hr>
@@ -336,7 +336,19 @@ $ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE
 <li>If packet is dropped and the server retransmits the data, log the following:</li>
 </ol>
 <pre><code>&quot;RETRAN&quot; &lt;Sequence Number&gt; &lt;Acknowledgement Number&gt; [&quot;ACK&quot;] [&quot;SYN&quot;] [&quot;FIN&quot;]
+</code></pre><hr>
+<h2 id="hints"><strong>Hints</strong></h2>
+<p><code>  def create_packet(**kwargs):</code></p>
+<pre><code>data = struct.pack('!I', s_n) #pack the version
+....
+data += struct.pack(&quot;!c&quot;, ack) #pack the ACK
+data += struct.pack(&quot;!c&quot;, syn) #pack the SYN
+data += struct.pack(&quot;!c&quot;, fin) #pack the FIN
+....
+return data    
 </code></pre>
+<p><code>send_data = create_packet(sequence_number=100, ack_number=0, ack = 'Y', syn = 'N', fin = 'N', payload=data)    </code></p>
+
   </div>
 </section>
 
