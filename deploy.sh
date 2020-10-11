@@ -5,6 +5,7 @@ rm -rf docs
 cp -r public/ docs/
 git add --all && git commit -m "Publishing to master"
 git push origin master
+rm -f public/recordings/*
 
 #cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
 #git push origin gh-pages 
