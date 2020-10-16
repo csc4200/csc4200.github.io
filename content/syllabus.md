@@ -65,11 +65,14 @@ Week 5 - Routing
 * [Lecture 11](/csc4200/lecture_slides/lecture12.pdf), [Recording](/csc4200/recordings/oct-07.mp4)
 * [Lecture 12](/csc4200/lecture_slides/lecture13.pdf), [Recording](/csc4200/recordings/oct-09.mp4)
 * [Lecture 13](/csc4200/lecture_slides/lecture15.pdf), [Recording](/csc4200/recordings/oct-14.mp4)
+
 <!-- * [Lecture 14](/csc4200/lecture_slides/lecture14.pdf) -->
 
 ------------------------------------------
 
-Week 6 - Midterm Review, Routing, BGP 
+Week 6 - Routing, BGP 
+* [Lecture 14](/csc4200/lecture_slides/lecture16.pdf), [Recording](/csc4200/recordings/oct-14.mp4)
+* [Lecture 15](/csc4200/lecture_slides/lecture17.pdf), [Recording](/csc4200/recordings/oct-16.mp4)
 <!-- * [Lecture 14](/csc4200/lecture_slides/lecture14.pdf) -->
 <!-- * [Lecture 15](/csc4200/lecture_slides/lecture15.pdf) -->
 
