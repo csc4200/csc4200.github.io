@@ -79,11 +79,8 @@ Week 6 - Routing, BGP
 ------------------------------------------
 
 Week 7 - BGP continued, Global Internet 
+* [Lecture 15](/csc4200/lecture_slides/lecture18.pdf), [Recording](/csc4200/recordings/oct-19.mp4)
 <!-- * [Lecture 16](/csc4200/lecture_slides/lecture16.pdf) -->
-
-------------------------------------------
-
-**October 12 - Fall break, no class**
 
 ------------------------------------------
 
