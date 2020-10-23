@@ -3,7 +3,7 @@ title: "Create your own content delivery network"
 sidebar: true # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
 ---
-## Due Date - November 27, 2019, 10PM CST
+## Due Date - November 27, 2020, 10PM CST
 ___
 **Objectives**
 ___

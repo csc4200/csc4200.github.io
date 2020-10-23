@@ -79,7 +79,7 @@ Week 6 - Routing, BGP
 ------------------------------------------
 
 Week 7 - BGP continued, Global Internet 
-* [Lecture 15](/csc4200/lecture_slides/lecture18.pdf), [Recording](/csc4200/recordings/oct-19.mp4)
+* [Lecture 16](/csc4200/lecture_slides/lecture18.pdf), [Lecture 17](/csc4200/lecture_slides/lecture19.pdf), [Recording](/csc4200/recordings/oct-19.mp4)
 <!-- * [Lecture 16](/csc4200/lecture_slides/lecture16.pdf) -->
 
 ------------------------------------------
@@ -89,7 +89,8 @@ Week 7 - BGP continued, Global Internet
 ------------------------------------------
 
 Week 8 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS 
-<!-- * [Lecture 17](/csc4200/lecture_slides/lecture17.pdf) -->
+* [Lecture 18](/csc4200/lecture_slides/lecture20.pdf), [Recording](/csc4200/recordings/oct-21.mp4)
+* [Lecture 19](/csc4200/lecture_slides/lecture21.pdf), [Recording](/csc4200/recordings/oct-23.mp4)
 <!-- * [Lecture 18](/csc4200/lecture_slides/lecture18.pdf) --> 
 <!-- * [Lecture 19](/csc4200/lecture_slides/lecture19.pdf) -->
 <!-- * [Lecture 20](/csc4200/lecture_slides/lecture20.pdf) -->
@@ -109,7 +110,7 @@ Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continu
 
 ------------------------------------------
 
-**November 20th - Homework 3 Due**
+**November 7th - Homework 3 Due**
 
 ------------------------------------------
 
@@ -133,7 +134,7 @@ Week 13 - Next generation network - Software Defined Network and Named Data Netw
 
 ------------------------------------------
 
-**November 20 - Project 4 Due**
+**November 27 - Project 4 Due**
 
 ------------------------------------------
 
@@ -142,11 +143,6 @@ Week 13 - Next generation network - Software Defined Network and Named Data Netw
 ------------------------------------------
 
 Week 14 - December 2, 4, 6 - Review of meterials, project demo, and wrap-up
-
-------------------------------------------
-
-***Final exam - TBD***
-
 
 ------------------------------------------
 
