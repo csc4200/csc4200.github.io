@@ -32,9 +32,6 @@ if __name__=='__main__':
     server_address = ('localhost', 30001)
     sock.connect(server_address)
 
-#values = (17, 8, b'LIGHTON')
-#packer = struct.Struct('I I 7s x')
-#packed_data = packer.pack(*values)
     sock.sendall(hello_packet)
 
     try:
