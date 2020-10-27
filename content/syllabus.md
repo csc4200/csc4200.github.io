@@ -7,6 +7,8 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 
 **This is a tentative schedule and will change.**
 
+* [Study Guide](/csc4200/homeworks/study-guide.pdf)
+* [Study Guide 2](/csc4200/homeworks/study-guide-2.pdf)
 ------------------------------------------
 Week 1 - Introduction, Network terminologies, Architecture vs Protocols
 * [Lecture  1](/csc4200/lecture_slides/lecture1.pdf), [Recording](/csc4200/recordings/august-26.mp4), Introduction, Circuit vs Packet Switching, Layers, Architectures vs Protocols
@@ -51,7 +53,7 @@ Week 3 - Link layer continued
 ------------------------------------------
 
 Week 4 - Packet Switching, Internetworking, NAT, IPv6, Routing 
-* [Study Guide](/csc4200/homeworks/study-guide.pdf)
+
 
 * [Lecture 7](/csc4200/lecture_slides/lecture7.pdf), [Recording](/csc4200/recordings/sept-18.mp4)
 * [Lecture 8](/csc4200/lecture_slides/lecture9.pdf), [Recording](/csc4200/recordings/sept-21.mp4)
