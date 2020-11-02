@@ -102,6 +102,8 @@ Week 8 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS
 Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continued)
 
 * [Lecture 20](/csc4200/lecture_slides/lecture22.pdf), [Recording](/csc4200/recordings/oct-26.mp4)
+* [Lecture 21](/csc4200/lecture_slides/lecture23.pdf),[Recording](/csc4200/recordings/oct-28.mp4)
+* [Lecture 22](/csc4200/lecture_slides/lecture24.pdf), [Recording](/csc4200/recordings/nov-02.mp4)
 <!-- * [Lecture 21](/csc4200/lecture_slides/lecture21.pdf) -->
 <!-- * [Lecture 22](/csc4200/lecture_slides/lecture22.pdf) -->
 <!-- * [Lecture 23](/csc4200/lecture_slides/lecture23.pdf) -->
