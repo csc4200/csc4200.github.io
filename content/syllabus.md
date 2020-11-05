@@ -121,7 +121,7 @@ Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continu
 ------------------------------------------
 
 Week 10 - Applications - Web, DNS, Email 
-<!-- * [Lecture 25](/csc4200/lecture_slides/Lecture25.pdf) -->
+* [Lecture 23](/csc4200/lecture_slides/lecture25.pdf), [Recording](/csc4200/recordings/nov-04.mp4)
 <!-- * [Lecture 26](/csc4200/lecture_slides/lecture26.pdf) -->
 
 ------------------------------------------

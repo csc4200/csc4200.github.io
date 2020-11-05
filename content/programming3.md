@@ -20,7 +20,7 @@ ___
 <br>
 
 
-![overview](/img/cdn-load-balancer.png)
+![overview](/csc4200/img/cdn-load-balancer.png)
 
 <br>
 
