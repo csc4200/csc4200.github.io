@@ -6,7 +6,7 @@ cp -r public/ docs/
 git add --all && git commit -m "Publishing to master"
 git push origin master
 rm -f public/recordings/*
-cd static/
+cd static/recordings/
 for i in `ls *.mp4`; do tar -cvzf $i.tar.gz $i; mv $i /tmp/recording/; done
 
  
