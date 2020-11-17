@@ -6,6 +6,9 @@ cp -r public/ docs/
 git add --all && git commit -m "Publishing to master"
 git push origin master
 rm -f public/recordings/*
+cd static/
+for i in `ls *.mp4`; do tar -cvzf $i.tar.gz $i; mv $i /tmp/recording/; done
+
  
 #cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
 #git push origin gh-pages 
