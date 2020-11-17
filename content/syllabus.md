@@ -9,6 +9,7 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 
 * [Study Guide](/csc4200/homeworks/study-guide.pdf)
 * [Study Guide 2](/csc4200/homeworks/study-guide-2.pdf)
+* [PA3](/csc4200/homeworks/PA3.mp4)
 ------------------------------------------
 Week 1 - Introduction, Network terminologies, Architecture vs Protocols
 * [Lecture  1](/csc4200/lecture_slides/lecture1.pdf), [Recording](/csc4200/recordings/august-26.mp4), Introduction, Circuit vs Packet Switching, Layers, Architectures vs Protocols
@@ -122,11 +123,16 @@ Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continu
 
 Week 10 - Applications - Web, DNS, Email 
 * [Lecture 23](/csc4200/lecture_slides/lecture25.pdf), [Recording](/csc4200/recordings/nov-04.mp4)
+* [Lecture 24](/csc4200/lecture_slides/lecture26.pdf), [Recording](/csc4200/recordings/nov-06.mp4)
+* [Lecture 25](/csc4200/lecture_slides/lecture27.pdf), [Recording](/csc4200/recordings/nov-11.mp4)
 <!-- * [Lecture 26](/csc4200/lecture_slides/lecture26.pdf) -->
 
 ------------------------------------------
 
 Week 11 - Network security 
+* [Lecture 26](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-13.mp4)
+* [Lecture 27](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-16.mp4)
+
 <!-- * [Lecture 27](/csc4200/lecture_slides/lecture27.pdf) -->
 
 ------------------------------------------
