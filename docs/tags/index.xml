@@ -5,10 +5,6 @@
     <link>https://tntech-ngin.github.io/csc4200/tags/</link>
     <description>Recent content in Tags on Networking and the Internet</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://tntech-ngin.github.io/csc4200/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://tntech-ngin.github.io/csc4200/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

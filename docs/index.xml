@@ -5,11 +5,7 @@
     <link>https://tntech-ngin.github.io/csc4200/</link>
     <description>Recent content on Networking and the Internet</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://tntech-ngin.github.io/csc4200/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://tntech-ngin.github.io/csc4200/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Material</title>
       <link>https://tntech-ngin.github.io/csc4200/material/</link>

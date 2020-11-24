@@ -132,12 +132,15 @@ Week 10 - Applications - Web, DNS, Email
 Week 11 - Network security 
 * [Lecture 26](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-13.mp4)
 * [Lecture 27](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-16.mp4)
+* [Lecture 28](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-18.mp4)
+* [Lecture 29](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-20.mp4)
 
 <!-- * [Lecture 27](/csc4200/lecture_slides/lecture27.pdf) -->
 
 ------------------------------------------
 
 Week 12 - Next generation network - Software Defined Network and Named Data Networking
+* [Lecture 30](/csc4200/lecture_slides/lecture29.pdf), [Recording](/csc4200/recordings/nov-23.mp4)
 
 ------------------------------------------
 
@@ -147,10 +150,6 @@ Week 13 - Next generation network - Software Defined Network and Named Data Netw
 ------------------------------------------
 
 **November 27 - Project 4 Due**
-
-------------------------------------------
-
-***November 25 - 27 Thanksgiving break, no class***
 
 ------------------------------------------
 

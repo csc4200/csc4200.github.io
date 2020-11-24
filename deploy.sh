@@ -1,14 +1,14 @@
 #!/bin/bash
 echo -e "Deploying updates to GitHub..."
-hugo
-rm -rf docs
-cp -r public/ docs/
+#hugo
+#rm -rf docs
+#cp -r public/ docs/
 git add --all && git commit -m "Publishing to master"
-git push origin master
-rm -f public/recordings/*
+git push origin master --verbose
+#rm -f public/recordings/*
 cd static/recordings/
-for i in `ls *.mp4`; do tar -cvzf $i.tar.gz $i; mv $i /tmp/recording/; done
-
+#for i in `ls *.mp4`; do tar -cvzf $i.tar.gz $i; mv $i /tmp/recording/; done
+#rm -rf docs
  
 #cd public && git add --all && git commit -m "Publishing to gh-pages" && cd ..
 #git push origin gh-pages 
