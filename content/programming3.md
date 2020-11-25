@@ -148,15 +148,11 @@ Response from <Replica IP>, sending request to <Client IP>
 
 4. Set the loss and delay using these commands:
 ```
-tc qdisc add dev <ethernet device, e.g, eth0> root netem delay 200ms
-tc qdisc add dev <ethernet device, e.g, eth0> root netem loss 20%
-tc qdisc del dev eth0 root
-```
-
-Make sure you have kernel-modules install
-```
 dnf install -y kernel-modules-extra
 dnf install -y kernel-debug-modules-extra
 reboot
+tc qdisc add dev <ethernet device, e.g, eth0> root netem delay 200ms
+tc qdisc add dev <ethernet device, e.g, eth0> root netem loss 20%
+tc qdisc del dev eth0 root
 ```
 
