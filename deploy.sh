@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e "Deploying updates to GitHub..."
-#hugo
+hugo
 #rm -rf docs
 cp -r public/ docs/
 git add --all && git commit -m "Publishing to master"
