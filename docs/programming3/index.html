@@ -304,9 +304,12 @@ Response from &lt;Replica IP&gt;, sending request to &lt;Client IP&gt;
 </code></pre><ol start="4">
 <li>Set the loss and delay using these commands:</li>
 </ol>
-<pre><code>tc qdisc add dev &lt;ethernet device, e.g, eth0&gt; root netem delay 200ms
+<pre><code>dnf install -y kernel-modules-extra
+dnf install -y kernel-debug-modules-extra
+reboot
+tc qdisc add dev &lt;ethernet device, e.g, eth0&gt; root netem delay 200ms
 tc qdisc add dev &lt;ethernet device, e.g, eth0&gt; root netem loss 20%
-tc qdisc del dev eth0
+tc qdisc del dev eth0 root
 </code></pre>
   </div>
 </section>
