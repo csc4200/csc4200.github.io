@@ -2,11 +2,11 @@
 echo -e "Deploying updates to GitHub..."
 #hugo
 #rm -rf docs
-#cp -r public/ docs/
+cp -r public/ docs/
 git add --all && git commit -m "Publishing to master"
 git push origin master --verbose
 #rm -f public/recordings/*
-cd static/recordings/
+#cd static/recordings/
 #for i in `ls *.mp4`; do tar -cvzf $i.tar.gz $i; mv $i /tmp/recording/; done
 #rm -rf docs
  
