@@ -9,6 +9,7 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 
 * [Study Guide](/csc4200/homeworks/study-guide.pdf)
 * [Study Guide 2](/csc4200/homeworks/study-guide-2.pdf)
+* [Study Guide 3](/csc4200/homeworks/study-guide-3.pdf)
 * [PA3](/csc4200/homeworks/PA3.mp4)
 ------------------------------------------
 Week 1 - Introduction, Network terminologies, Architecture vs Protocols
