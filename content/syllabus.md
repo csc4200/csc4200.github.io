@@ -7,141 +7,81 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 
 **This is a tentative schedule and will change.**
 
-* [Study Guide](/csc4200/homeworks/study-guide.pdf)
-* [Study Guide 2](/csc4200/homeworks/study-guide-2.pdf)
-* [Study Guide 3](/csc4200/homeworks/study-guide-3.pdf)
-* [PA3](/csc4200/homeworks/PA3.mp4)
-------------------------------------------
-Week 1 - Introduction, Network terminologies, Architecture vs Protocols
-* [Lecture  1](/csc4200/lecture_slides/lecture1.pdf), [Recording](/csc4200/recordings/august-26.mp4), Introduction, Circuit vs Packet Switching, Layers, Architectures vs Protocols
-* [Lecture  2](/csc4200/lecture_slides/lecture2.pdf), [Recording](/csc4200/recordings/august-28.mp4), TDM/FDM, Bandwidth/Delay, Jitter 
-* [Lecture  3](/csc4200/lecture_slides/lecture3.pdf), [Recording](/csc4200/recordings/august-31.mp4), Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC
+-----------------------------------------
+Week 1 - 
+
+* January 20 - Introduction [Slides](/csc4200/lecture_slides/Jan20.pdf), [Recording](/csc4200/recordings/Jan20.mp4)
+* January 22 - Circuit vs Packet Switching, Layers, Architectures vs Protocols 
+
+
+
+-------------------------------------------
+ 
+**Jan 25th - Last day to drop class**
+
+-------------------------------------------
+Week2 -
+
+* January 25 - TDM/FDM, Bandwidth/Delay, Jitter 
+* January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC
+* January 29 - Reliable Delivery, Stop-n-wait, sliding window
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
 
+**January 30th - Homework 1 Due**
+
+-----------------------------------------
+
+Week 3
+
+* February 1 - Socket Programming
+* February 3 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance
+* February 5 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance
 ------------------------------------------
 
-Week 2 - Connecting machines, Reliable Delivery, Ethernet, Access protocols 
-* [Lecture  4](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-02.mp4), Reliable Delivery, Stop-n-wait, sliding window
-* [Socket Programming](/csc4200/lecture_slides/sockets.pdf), [Socket Programming Recording](/csc4200/recordings/socket.mp4)
-* [Lecture  4 Contd.](/csc4200/lecture_slides/lecture4.pdf), [Recording](/csc4200/recordings/sept-09.mp4), Reliable Delivery, Stop-n-wait, sliding window
-* [Lecture 5](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-11.mp4), Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidanceRecap
-
-<!-- * [Lecture 6](/csc4200/lecture_slides/lecture6.pdf) -->
-
-------------------------------------------
-
-
-***September 6 - Last date to drop class***
-
-------------------------------------------
-
-***September 7 - Labor day, no class***
-
-------------------------------------------
-
-**September 7th - Homework 1 Due**
-
-
-------------------------------------------
-
-Week 3 - Link layer continued
-* [Lecture 5.1](/csc4200/lecture_slides/lecture5.pdf), [Recording](/csc4200/recordings/sept-14.mp4), Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance
-* [Lecture 6](/csc4200/lecture_slides/lecture6.pdf), [Recording](/csc4200/recordings/sept-16.mp4), 
-
-------------------------------------------
-
-**September 20th - Project 1 Due**
-
-------------------------------------------
 
 Week 4 - Packet Switching, Internetworking, NAT, IPv6, Routing 
 
 
-* [Lecture 7](/csc4200/lecture_slides/lecture7.pdf), [Recording](/csc4200/recordings/sept-18.mp4)
-* [Lecture 8](/csc4200/lecture_slides/lecture9.pdf), [Recording](/csc4200/recordings/sept-21.mp4)
-* [Lecture 9](/csc4200/lecture_slides/lecture10.pdf), [Recording Not Available]
-* [Lecture 10](/csc4200/lecture_slides/lecture10.pdf), [Recording](/csc4200/recordings/sept-25.mp4)
-* [Lecture 11](/csc4200/lecture_slides/lecture11.pdf), [Recording](/csc4200/recordings/oct-2.mp4)
-
 ------------------------------------------
 
 Week 5 - Routing 
-* [Lecture 11](/csc4200/lecture_slides/lecture12.pdf), [Recording](/csc4200/recordings/oct-07.mp4)
-* [Lecture 12](/csc4200/lecture_slides/lecture13.pdf), [Recording](/csc4200/recordings/oct-09.mp4)
-* [Lecture 13](/csc4200/lecture_slides/lecture15.pdf), [Recording](/csc4200/recordings/oct-14.mp4)
-
 <!-- * [Lecture 14](/csc4200/lecture_slides/lecture14.pdf) -->
 
 ------------------------------------------
 
 Week 6 - Routing, BGP 
-* [Lecture 14](/csc4200/lecture_slides/lecture16.pdf), [Recording](/csc4200/recordings/oct-14.mp4)
-* [Lecture 15](/csc4200/lecture_slides/lecture17.pdf), [Recording](/csc4200/recordings/oct-16.mp4)
-<!-- * [Lecture 14](/csc4200/lecture_slides/lecture14.pdf) -->
-<!-- * [Lecture 15](/csc4200/lecture_slides/lecture15.pdf) -->
-
 ------------------------------------------
 
-Week 7 - BGP continued, Global Internet 
-* [Lecture 16](/csc4200/lecture_slides/lecture18.pdf), [Lecture 17](/csc4200/lecture_slides/lecture19.pdf), [Recording](/csc4200/recordings/oct-19.mp4)
-<!-- * [Lecture 16](/csc4200/lecture_slides/lecture16.pdf) -->
-
-------------------------------------------
-
-**October 20 - Project 2 Due**
-
-------------------------------------------
-
-Week 8 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS 
-* [Lecture 18](/csc4200/lecture_slides/lecture20.pdf), [Recording](/csc4200/recordings/oct-21.mp4)
-* [Lecture 19](/csc4200/lecture_slides/lecture21.pdf), [Recording](/csc4200/recordings/oct-23.mp4)
-<!-- * [Lecture 18](/csc4200/lecture_slides/lecture18.pdf) --> 
-<!-- * [Lecture 19](/csc4200/lecture_slides/lecture19.pdf) -->
-<!-- * [Lecture 20](/csc4200/lecture_slides/lecture20.pdf) -->
+**March 15th-March 19th Spring Break**
 
 ------------------------------------------ 
 
+Week 7 - BGP continued, Global Internet 
+------------------------------------------
+
+Week 8 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS 
+
+------------------------------------------ 
+**April  02 - Last day to withdraw**
+**April  02 - No class**
+
+------------------------------------------
+
 Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continued)
 
-* [Lecture 20](/csc4200/lecture_slides/lecture22.pdf), [Recording](/csc4200/recordings/oct-26.mp4)
-* [Lecture 21](/csc4200/lecture_slides/lecture23.pdf),[Recording](/csc4200/recordings/oct-28.mp4)
-* [Lecture 22](/csc4200/lecture_slides/lecture24.pdf), [Recording](/csc4200/recordings/nov-02.mp4)
-<!-- * [Lecture 21](/csc4200/lecture_slides/lecture21.pdf) -->
-<!-- * [Lecture 22](/csc4200/lecture_slides/lecture22.pdf) -->
-<!-- * [Lecture 23](/csc4200/lecture_slides/lecture23.pdf) -->
-<!-- * [Lecture 24](/csc4200/lecture_slides/lecture24.pdf) -->
-
 
 ------------------------------------------
 
-**November 6th - Last Day to drop a class with a "W" grade**
-
-------------------------------------------
-
-**November 7th - Homework 3 Due**
-
-------------------------------------------
 
 Week 10 - Applications - Web, DNS, Email 
-* [Lecture 23](/csc4200/lecture_slides/lecture25.pdf), [Recording](/csc4200/recordings/nov-04.mp4)
-* [Lecture 24](/csc4200/lecture_slides/lecture26.pdf), [Recording](/csc4200/recordings/nov-06.mp4)
-* [Lecture 25](/csc4200/lecture_slides/lecture27.pdf), [Recording](/csc4200/recordings/nov-11.mp4)
-<!-- * [Lecture 26](/csc4200/lecture_slides/lecture26.pdf) -->
 
 ------------------------------------------
 
 Week 11 - Network security 
-* [Lecture 26](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-13.mp4)
-* [Lecture 27](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-16.mp4)
-* [Lecture 28](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-18.mp4)
-* [Lecture 29](/csc4200/lecture_slides/lecture28.pdf), [Recording](/csc4200/recordings/nov-20.mp4)
-
-<!-- * [Lecture 27](/csc4200/lecture_slides/lecture27.pdf) -->
 
 ------------------------------------------
 
 Week 12 - Next generation network - Software Defined Network and Named Data Networking
-* [Lecture 30](/csc4200/lecture_slides/lecture29.pdf), [Recording](/csc4200/recordings/nov-23.mp4)
 
 ------------------------------------------
 

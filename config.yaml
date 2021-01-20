@@ -32,22 +32,12 @@ params:
     url: /csc4200/material/index.html
   - title: Programming Assignments
     sublinks:
-    - title: Assignment 1
-      url: /csc4200/programming1/index.html
-    - title: Assignment 2
-      url: /csc4200/programming2/index.html
-    - title: Assignment 3
-      url: /csc4200/programming3/index.html
+#    - title: Assignment 1
+#     url: /csc4200/programming1/index.html
   - title: Homeworks
     sublinks:
     - title: Homework 1
       url: /csc4200/homeworks/homework1.pdf
-    - title: Homework 2
-      url: /csc4200/homeworks/homework2.pdf
-    - title: Homework3
-      url: /csc4200/homeworks/homework3.pdf
- #   - title: Homework4
- #     url: /csc4200/homeworks/homework4.pdf
   section1:
     title: Objectives
     tiles:
@@ -74,13 +64,17 @@ params:
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Instructor - Susmit Shannigrahi
-      text: Office Hours - Wednesday 1100-1200 and 1430-1630 in Foundation Hall 132
+      text: Office Hours - Wednesday and Thursady 1430-1630 in Class Zoom
       icon: doc-sync
     - title: GTA - David Reddick
-      text: Office Hours - Wednesday 1430-1600 in Foundation Hall 216
+      text: Office Hours  - TBD
       icon: mobile-feed
-    - title: Class Mailing List
-      text: TBA
+
+    - title: GTA - Ethan Newman
+      text: Office Hours - TBD
+      icon: mobile-feed
+    - title: Class slack
+      text: TBD
       icon: mobile-feed
       # Icon (from /images/illustrations/icons/___.svg)
 
