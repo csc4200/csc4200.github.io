@@ -9,7 +9,7 @@ ____________________________________________
 
 
 1. **Textbook**
-    We will be using the following book. It is open source and you can use [PDF](https://github.com/SystemsApproach/book/releases/download/v6.1/book.pdf) version. You can also view the HTML pages [here](https://book.systemsapproach.org/).
+    We will be using the following book. It is open source and you can use the [PDF](https://github.com/SystemsApproach/book/releases/download/v6.1/book.pdf) or the [HTML](https://book.systemsapproach.org/) version.
 
 ```
 Title: Computer Networks: A Systems Approach
