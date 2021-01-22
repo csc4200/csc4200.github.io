@@ -53,9 +53,9 @@
       <guid>https://tntech-ngin.github.io/csc4200/syllabus/</guid>
       <description>This is a tentative schedule and will change.
  Week 1 -
- January 20 - Introduction Slides, Recording January 22 - Circuit vs Packet Switching, Layers, Architectures vs Protocols   Jan 25th - Last day to drop class
- Week2 -
- January 25 - TDM/FDM, Bandwidth/Delay, Jitter January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC January 29 - Reliable Delivery, Stop-n-wait, sliding window  January 30th - Homework 1 Due</description>
+ January 20 - Introduction Slides, Recording January 22 - Introduction - Terminologies, Circuit vs Packet Switching, Layers, Architectures vs Protocols Slides, Recording   Reading assignment for week 1 - Introduction, Chapter 1.2, and Chapter 1.3   Jan 25th - Last day to drop class
+ Week 2 -
+ January 25 - Bandwidth/Delay, Jitter January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC January 29 - Reliable Delivery, Stop-n-wait, sliding window  January 30th - Homework 1 Due</description>
     </item>
     
     <item>

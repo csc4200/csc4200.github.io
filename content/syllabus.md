@@ -11,18 +11,17 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 Week 1 - 
 
 * January 20 - Introduction [Slides](/csc4200/lecture_slides/Jan20.pdf), [Recording](/csc4200/recordings/Jan20.mp4)
-* January 22 - Circuit vs Packet Switching, Layers, Architectures vs Protocols 
-
-
+* January 22 - Introduction - Terminologies, Circuit vs Packet Switching, Layers, Architectures vs Protocols [Slides](/csc4200/lecture_slides/Jan22.pdf), [Recording](/csc4200/recordings/Jan22.mp4)
+-  **Reading assignment for week 1** - [Introduction](https://book.systemsapproach.org/foundation/problem.html#problem-building-a-network), [Chapter 1.2](https://book.systemsapproach.org/foundation/requirements.html#requirements), and [Chapter 1.3](https://book.systemsapproach.org/foundation/architecture.html#architecture) 
 
 -------------------------------------------
  
 **Jan 25th - Last day to drop class**
 
 -------------------------------------------
-Week2 -
+Week 2 -
 
-* January 25 - TDM/FDM, Bandwidth/Delay, Jitter 
+* January 25 - Bandwidth/Delay, Jitter 
 * January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC
 * January 29 - Reliable Delivery, Stop-n-wait, sliding window
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
