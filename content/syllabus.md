@@ -21,7 +21,7 @@ Week 1 -
 -------------------------------------------
 Week 2 -
 
-* January 25 - Bandwidth/Delay, Jitter 
+* January 25 - Network Performance, Bandwidth/Delay, Jitter  [Slides](/csc4200/lecture_slides/Jan25.pdf), [Recording](/csc4200/recordings/Jan25.mp4)  [Reading - Chapter 1.5](https://book.systemsapproach.org/foundation/requirements.html#performace) 
 * January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC
 * January 29 - Reliable Delivery, Stop-n-wait, sliding window
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
