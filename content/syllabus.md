@@ -12,7 +12,7 @@ Week 1 -
 
 * January 20 - Introduction [Slides](/csc4200/lecture_slides/Jan20.pdf), [Recording](/csc4200/recordings/Jan20.mp4)
 * January 22 - Introduction - Terminologies, Circuit vs Packet Switching, Layers, Architectures vs Protocols [Slides](/csc4200/lecture_slides/Jan22.pdf), [Recording](/csc4200/recordings/Jan22.mp4)
--  **Reading assignment for week 1** - [Introduction](https://book.systemsapproach.org/foundation/problem.html#problem-building-a-network), [Chapter 1.2](https://book.systemsapproach.org/foundation/requirements.html#requirements), and [Chapter 1.3](https://book.systemsapproach.org/foundation/architecture.html#architecture) 
+-  **- Reading assignment for week 1** - [Introduction](https://book.systemsapproach.org/foundation/problem.html#problem-building-a-network), [Chapter 1.2](https://book.systemsapproach.org/foundation/requirements.html#requirements), and [Chapter 1.3](https://book.systemsapproach.org/foundation/architecture.html#architecture) 
 
 -------------------------------------------
  
@@ -22,8 +22,9 @@ Week 1 -
 Week 2 -
 
 * January 25 - Network Performance, Bandwidth/Delay, Jitter  [Slides](/csc4200/lecture_slides/Jan25.pdf), [Recording](/csc4200/recordings/Jan25.mp4)  
-- **Reading assignement** [Reading - Chapter 1.5](https://book.systemsapproach.org/foundation/requirements.html#performace) 
-* January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection, CRC
+- **- Reading assignement** [Reading - Chapter 1.5](https://book.systemsapproach.org/foundation/requirements.html#performace) 
+* January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection [Slides](/csc4200/lecture_slides/Jan27.pdf), [Recording](/csc4200/recordings/Jan27.mp4)  
+- **- Reading assignement** [Reading - Chapter 2-2.4, see Slides for details](https://book.systemsapproach.org/direct/problem.html) 
 * January 29 - Reliable Delivery, Stop-n-wait, sliding window
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
 
