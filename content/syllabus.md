@@ -25,7 +25,8 @@ Week 2 -
 - **- Reading assignement** [Reading - Chapter 1.5](https://book.systemsapproach.org/foundation/requirements.html#performace) 
 * January 27 - Links, Encoding, Frames, Point to point links, Byte Stuffing, Error detection [Slides](/csc4200/lecture_slides/Jan27.pdf), [Recording](/csc4200/recordings/Jan27.mp4)  
 - **- Reading assignement** [Reading - Chapter 2-2.4, see Slides for details](https://book.systemsapproach.org/direct/problem.html) 
-* January 29 - Reliable Delivery, Stop-n-wait, sliding window
+* January 29 - Reliable Delivery, Stop-n-wait [Slides](/csc4200/lecture_slides/Feb01.pdf), [Recording](/csc4200/recordings/Feb01.mp4)  
+- **- Reading assignement** [Reading - Chapter 2.4 and 2.5, see Slides for details](https://book.systemsapproach.org/direct/error.html#error-detection)
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
 
 **January 30th - Homework 1 Due**
