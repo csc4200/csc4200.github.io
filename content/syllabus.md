@@ -28,6 +28,10 @@ Week 2 -
 * January 29 - Socket Programming
 <!-- * [Lecture  3](/csc4200/lecture_slides/lecture3.pdf) -->
 
+
+
+-----------------------------------------
+
 **January 30th - Homework 1 Due**
 
 -----------------------------------------
