@@ -40,7 +40,8 @@ Week 3
 
 * February 1 -  Reliable Delivery, Stop-n-wait [Slides](/csc4200/lecture_slides/Feb01.pdf), [Recording](/csc4200/recordings/Feb01.mp4)  
 - **- Reading assignement** [Reading - Chapter 2.4 and 2.5, see Slides for details](https://book.systemsapproach.org/direct/error.html#error-detection)
-* February 3 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance
+* February 3 - Reliable Delivery, Sliding Window  [Slides](/csc4200/lecture_slides/Feb03.pdf), [Recording](/csc4200/recordings/Feb03.mp4)  
+- **- Reading assignement** [Reading - Chapter 2.5, see Slides for details](https://book.systemsapproach.org/direct/reliable.html)
 * February 5 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance
 ------------------------------------------
 
