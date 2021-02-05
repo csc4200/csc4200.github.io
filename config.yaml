@@ -32,8 +32,8 @@ params:
     url: /csc4200/material/index.html
   - title: Programming Assignments
     sublinks:
-#    - title: Assignment 1
-#     url: /csc4200/programming1/index.html
+      - title: Assignment 1
+        url: /csc4200/programming1/index.html
   - title: Homeworks
     sublinks:
     - title: Homework 1

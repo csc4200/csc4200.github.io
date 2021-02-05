@@ -5,7 +5,7 @@ sidebarlogo: fresh-white-alt # From (static/images/logo/)
 ---
 
 
-## Due Date - Sept 20, 2020
+## Due Date - Feb 21, 2021
 ___
 **Objectives**
 ___
@@ -34,18 +34,21 @@ ___
 ___
 The server takes two arguments:
 
+HINT: Look at python "argparse" module for this portion.
+
 ```
 $ lightserver -p <PORT> -l <LOG FILE LOCATION>
 ```
 
 1.```PORT``` - The port server listens on.
-
 2.```Log file location``` - Where you will keep a record of actions.
 
 ```
 For example:
 $ lightserver -p 30000 -l /tmp/logfile
 ```
+
+
 ___
 ***Deliverables (each worth 5 points)***
 ___
@@ -58,7 +61,7 @@ ___
 
 3. Once a client connects, it logs a message in the following format ```"Received connection from <CLIENT IP, PORT> "```
 
-4. Once it receives a hello message from the client, it logs the connection and sends a hello back to the client. 
+4. Once it receives a HELLO message from the client, it logs the connection and sends a HELLO back to the client. 
 
 4. You can assume the packet format is the following:
 
@@ -88,6 +91,10 @@ ___
 11. Send back a "SUCCESS" message to the client.
 
 12. Make sure server does not exit on 0 byte messages.
+
+13. On receiving a DISCONNECT message from the client, it closes that particular socket. The whole program should not exit.
+
+13. Server can handle multiple clients at a given time.
 <br>
 
 ___
@@ -160,23 +167,27 @@ ___
 +----------------------------------------------------------------------+
 ```
 
-9. Receive the server's reply, log the reply, and gracefully shutdown the socket. You can assume the server always replies with a "SUCCESS" message for this assignment.
+9. Receive the server's reply, log the reply, send a DISCONNECT message to the server, and shutdown the socket. You can assume the server always replies with a "SUCCESS" message for this assignment.
 
 10. Use TCPDUMP or Wireshark to capture the interactions, turn the .pcap file in with the assignment.
 
 <br>
 
-___
-Additional requirements:
-___
-1. Code must compile/run on Google Cloud Ubuntu VM (18.04) - we will test your code only on the VM.
+-------------
+HINTS:
+-------------
+1. Break the problem down in smaller portions - don't try to do everything at once.
 
-1. You must pack the packet in a structure. If you are using python, use the struct module. 
+1. Use ARGPARSE module for parsing the command-line arguments.
+
+1. Code must compile/run on Google Cloud Ubuntu VM (18.04 or later).
+
+1. You must pack the packet in a structure. If you are using python, use the "STRUCT" module.  See an example here: https://pymotw.com/3/struct/
 
 2. Pay extra attention to byte-order encoding before sending the packet. Big-endianness is the dominant ordering in today's network protocols.
 
 -------------
-Sample Output
+Sample Output (Exact format does not matter)
 -------------
 
 **Server side**
