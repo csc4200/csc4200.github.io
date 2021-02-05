@@ -35,24 +35,28 @@ Week 2 -
 **January 30th - Homework 1 Due**
 
 -----------------------------------------
-
 Week 3
 
 * February 1 -  Reliable Delivery, Stop-n-wait [Slides](/csc4200/lecture_slides/Feb01.pdf), [Recording](/csc4200/recordings/Feb01.mp4)  
 - **- Reading assignement** [Reading - Chapter 2.4 and 2.5, see Slides for details](https://book.systemsapproach.org/direct/error.html#error-detection)
 * February 3 - Reliable Delivery, Sliding Window  [Slides](/csc4200/lecture_slides/Feb03.pdf), [Recording](/csc4200/recordings/Feb03.mp4)  
 - **- Reading assignement** [Reading - Chapter 2.5, see Slides for details](https://book.systemsapproach.org/direct/reliable.html)
-* February 5 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance
-------------------------------------------
-
-
-Week 4 - Packet Switching, Internetworking, NAT, IPv6, Routing 
-
+* February 5 - Socket Programming  [Slides](/csc4200/lecture_slides/Feb05.pdf), [Recording](/csc4200/recordings/Feb05.mp4)  
 
 ------------------------------------------
 
+Week 4 -  Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance, Packet Switching, Internetworking, NAT, IPv6, Routing 
+
+------------------------------------------
+**Febuary 21 - Programming Assignment 1 Due**
+
+------------------------------------------
 Week 5 - Routing 
 <!-- * [Lecture 14](/csc4200/lecture_slides/lecture14.pdf) -->
+
+------------------------------------------
+
+**Febuary 26 - First exam**
 
 ------------------------------------------
 
@@ -94,22 +98,11 @@ Week 12 - Next generation network - Software Defined Network and Named Data Netw
 
 Week 13 - Next generation network - Software Defined Network and Named Data Networking continued.
 
-
-------------------------------------------
-
-**November 27 - Project 4 Due**
-
 ------------------------------------------
 
 Week 14 - December 2, 4, 6 - Review of meterials, project demo, and wrap-up
 
 ------------------------------------------
-
-
-
-
-
-
 
 
 
