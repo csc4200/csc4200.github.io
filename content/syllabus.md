@@ -44,8 +44,12 @@ Week 3
 * February 5 - Socket Programming  [Slides](/csc4200/lecture_slides/Feb05.pdf), [Recording](/csc4200/recordings/Feb05.mp4)  
 
 ------------------------------------------
+Week 4 
 
-Week 4 -  Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance, Packet Switching, Internetworking, NAT, IPv6, Routing 
+* February 8 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance, [Slides](/csc4200/lecture_slides/Feb08.pdf), [Recording](/csc4200/recordings/Feb08.mp4)  
+- **- Reading assignement** [Reading - Chapter 2.6](https://book.systemsapproach.org/direct/ethernet.html)
+
+* February 10 - Packet Switching, Internetworking, NAT, IPv6, Routing 
 
 ------------------------------------------
 **Febuary 21 - Programming Assignment 1 Due**
