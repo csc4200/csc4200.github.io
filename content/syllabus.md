@@ -49,6 +49,10 @@ Week 4
 * February 8 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance, [Slides](/csc4200/lecture_slides/Feb08.pdf), [Recording](/csc4200/recordings/Feb08.mp4)  
 - **- Reading assignement** [Reading - Chapter 2.6](https://book.systemsapproach.org/direct/ethernet.html)
 
+* February 10 - Ethernet, Wifi, CSMA-CA/CD, Transmitter algorithm, Collision avoidance, [Slides](/csc4200/lecture_slides/Feb10.pdf), [Recording](/csc4200/recordings/Feb10.mp4)  
+- **- Reading assignement** [Reading - Chapter 2.7](https://book.systemsapproach.org/direct/wireless.html#wireless-networks), [Reading - Chapter 2.7](https://book.systemsapproach.org/direct/access.html#cellular-network)
+
+
 * February 10 - Packet Switching, Internetworking, NAT, IPv6, Routing 
 
 ------------------------------------------
