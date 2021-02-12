@@ -53,7 +53,7 @@ Week 4
 - **- Reading assignement** [Reading - Chapter 2.7](https://book.systemsapproach.org/direct/wireless.html#wireless-networks), [Reading - Chapter 2.7](https://book.systemsapproach.org/direct/access.html#cellular-network)
 
 
-* February 10 - Packet Switching, Internetworking, NAT, IPv6, Routing 
+* February 12 - Link Layer Review,  [Slides](/csc4200/lecture_slides/Feb12.pdf), [Recording](/csc4200/recordings/Feb12.mp4)  
 
 ------------------------------------------
 **Febuary 21 - Programming Assignment 1 Due**
