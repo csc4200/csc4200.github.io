@@ -64,14 +64,14 @@ params:
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Instructor - Susmit Shannigrahi
-      text: Office Hours - Wednesday and Thursady 1430-1630 in Class Zoom
+      text: Office Hours -  W/F 12-1PM (Class Zoom)
       icon: doc-sync
     - title: GTA - David Reddick
-      text: Office Hours  - TBD
+      text: Office Hours  - M/W/F - 10-12PM, T/TH 9:00-10PM (Class Zoom)
       icon: mobile-feed
 
     - title: GTA - Ethan Newman
-      text: Office Hours - TBD
+      text: Office Hours -  T/TH 12:30-2:00PM, W 2-3:30PM (Class Zoom)
       icon: mobile-feed
     - title: Class slack
       text: TBD
