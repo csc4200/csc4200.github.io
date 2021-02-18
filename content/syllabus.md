@@ -56,7 +56,7 @@ Week 4
 * February 12 - Link Layer Review,  [Slides](/csc4200/lecture_slides/Feb12.pdf), [Recording](/csc4200/recordings/Feb12.mp4)  
 
 ------------------------------------------
-**Febuary 21 - Programming Assignment 1 Due**
+**Febuary 28 - Programming Assignment 1 Due**
 
 ------------------------------------------
 Week 5 - Routing 
@@ -64,7 +64,7 @@ Week 5 - Routing
 
 ------------------------------------------
 
-**Febuary 26 - First exam**
+**March 05th - First exam**
 
 ------------------------------------------
 
