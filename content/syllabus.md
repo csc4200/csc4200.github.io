@@ -59,7 +59,10 @@ Week 4
 **Febuary 28 - Programming Assignment 1 Due**
 
 ------------------------------------------
-Week 5 - Routing 
+Week 5 - IP
+* February 22 - Switching, Spanning tree [Slides](/csc4200/lecture_slides/Feb22.pdf), [Recording](/csc4200/recordings/Feb22.mp4)
+- **- Reading assignement** [Reading - Chapter 3.1, Upto Virtual Circuit Switching](https://book.systemsapproach.org/internetworking/switching.html#switching-basics), [Reading - Chapter 3.2](https://book.systemsapproach.org/internetworking/ethernet.html#switched-ethernet)  
+
 <!-- * [Lecture 14](/csc4200/lecture_slides/lecture14.pdf) -->
 
 ------------------------------------------
