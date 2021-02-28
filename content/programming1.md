@@ -195,16 +195,12 @@ Sample Output (Exact format does not matter)
 Received connection from (IP, PORT):  ('127.0.0.1', 53888)
 Received Data: version: 17 message_type: 1 length: 1280
 VERSION ACCEPTED
-Received Data: version: 17 message_type: 2 length: 1792
-VERSION ACCEPTED
 EXECUTING SUPPORTED COMMAND:  LIGHTON
 Returning SUCCESS
 Received connection from (IP, PORT):  ('127.0.0.1', 53890)
-Received Data: version: 17 message_type: 1 length: 1280
-VERSION ACCEPTED
 Received Data: version: 17 message_type: 2 length: 1792
 VERSION ACCEPTED
-EXECUTING SUPPORTED COMMAND:  LIGHTON
+EXECUTING SUPPORTED COMMAND:  LIGHTOFF
 Returning SUCCESS
 ```
 
