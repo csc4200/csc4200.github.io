@@ -61,24 +61,30 @@ Week 4
 ------------------------------------------
 Week 5 - IP
 * February 22 - Switching, Spanning tree [Slides](/csc4200/lecture_slides/Feb22.pdf), [Recording](/csc4200/recordings/Feb22.mp4)
-- **- Reading assignement** [Reading - Chapter 3.1, Upto Virtual Circuit Switching](https://book.systemsapproach.org/internetworking/switching.html#switching-basics), [Reading - Chapter 3.2](https://book.systemsapproach.org/internetworking/ethernet.html#switched-ethernet)  
+- **- Reading assignement** [Reading - Chapter 3.1, Up to Virtual Circuit Switching](https://book.systemsapproach.org/internetworking/switching.html#switching-basics), [Reading - Chapter 3.2](https://book.systemsapproach.org/internetworking/ethernet.html#switched-ethernet)  
 
 * February 24 - Addressing [Slides](/csc4200/lecture_slides/Feb24.pdf), [Recording](/csc4200/recordings/Feb24.mp4)
-- **- Reading assignement** [Reading - Chapter 3.3, Upto Addressing](https://book.systemsapproach.org/internetworking/basic-ip.html#internet-ip)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/internetworking/basic-ip.html#internet-ip)
 <!-- * [Lecture 14](/csc4200/lecture_slides/lecture14.pdf) -->
 
 * February 26 - Addressing, Fragmentation and Reassembly [Slides](/csc4200/lecture_slides/Feb24.pdf), [Recording](/csc4200/recordings/Feb26.mp4)
-- **- Reading assignement** [Reading - Chapter 3.3, Upto Addressing](https://book.systemsapproach.org/internetworking/basic-ip.html#internet-ip)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/internetworking/basic-ip.html#internet-ip)
 - **- [Study guide for exam 1](/csc4200/homeworks/study-guide-Feb26.pdf)
 
 ------------------------------------------
 
 * March 01 - ARP, DHCP [Slides](/csc4200/lecture_slides/Mar01.pdf), [Recording](/csc4200/recordings/Mar01.mp4)
-- **- Reading assignement** [Reading - Chapter 3.3, Upto Addressing](https://book.systemsapproach.org/internetworking.html#chapter-3-internetworking)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/internetworking.html#chapter-3-internetworking)
 
 
-* March 01 - NAT, ICMP, Routing vs Switching [Slides](/csc4200/lecture_slides/Mar03.pdf), [Recording](/csc4200/recordings/Mar03.mp4)
-- **- Reading assignement** [Reading - Chapter 3.3, Upto Addressing](https://book.systemsapproach.org/internetworking.html#chapter-3-internetworking)
+* March 03 - NAT, ICMP, Routing vs Switching [Slides](/csc4200/lecture_slides/Mar03.pdf), [Recording](/csc4200/recordings/Mar03.mp4)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/internetworking/basic-ip.html#error-reporting-icmp)
+
+
+* March 05 - Routing vs Switching [Slides](/csc4200/lecture_slides/Mar05.pdf), [Recording](/csc4200/recordings/Mar05.mp4)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/internetworking/routing.html#network-as-a-graph), [Reading](https://book.systemsapproach.org/internetworking/routing.html#link-state-ospf)
+
+
 
 ------------------------------------------
 
