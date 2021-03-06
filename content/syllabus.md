@@ -76,6 +76,10 @@ Week 5 - IP
 * March 01 - ARP, DHCP [Slides](/csc4200/lecture_slides/Mar01.pdf), [Recording](/csc4200/recordings/Mar01.mp4)
 - **- Reading assignement** [Reading - Chapter 3.3, Upto Addressing](https://book.systemsapproach.org/internetworking.html#chapter-3-internetworking)
 
+
+* March 01 - NAT, ICMP, Routing vs Switching [Slides](/csc4200/lecture_slides/Mar03.pdf), [Recording](/csc4200/recordings/Mar03.mp4)
+- **- Reading assignement** [Reading - Chapter 3.3, Upto Addressing](https://book.systemsapproach.org/internetworking.html#chapter-3-internetworking)
+
 ------------------------------------------
 
 
