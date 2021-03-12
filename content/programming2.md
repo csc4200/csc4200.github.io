@@ -39,6 +39,9 @@ For example:
 ```
 $ anonserver -p 30000 -l /tmp/logfile -w www.nytimes.com
 ```
+
+
+You can use python URLLIB2 to download the files. Here is a helpful tutorial: https://docs.python.org/3/howto/urllib2.html
 ___
 **Server's Functional requirements**
 ___
