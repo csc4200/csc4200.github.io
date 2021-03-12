@@ -96,6 +96,20 @@ Week 5 - IP
 Week 6 - Routing, BGP 
 ------------------------------------------
 
+* March 08 - Routing, Issues with Scaling [Slides](/csc4200/lecture_slides/Mar08.pdf), [Recording](/csc4200/recordings/Mar08.mp4)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/internetworking/routing.html)
+
+
+* March 10 - BGP [Slides](/csc4200/lecture_slides/Mar10.pdf), [Recording](/csc4200/recordings/Mar10.mp4)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/internetworking/routing.html)
+
+
+* March 12 - BGP [Slides](/csc4200/lecture_slides/Mar12.pdf), [Recording](/csc4200/recordings/Mar12.mp4)
+- **- Reading assignement** [Reading](https://book.systemsapproach.org/scaling/global.html#interdomain-routing-bgp)
+
+
+------------------------------------------ 
+
 **March 15th-March 19th Spring Break**
 
 ------------------------------------------ 
