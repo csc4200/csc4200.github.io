@@ -64,7 +64,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tntech-ngin.github.io/csc4200/programming2/</guid>
-      <description>Due Date - March 31, 2021, 10PM CST  Objectives
+      <description>Due Date - April 04, 2021, 10PM CST  Objectives
  In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory. You will then have clients connect to the server and retrives this content. This is the overly simplified idea behind a WEB PROXY. The client and server communications MUST use UDP (SOCK_DGRAM) and NOT TCP.</description>
     </item>
     

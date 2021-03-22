@@ -3,7 +3,7 @@ title: "To the Cloud and Back"
 sidebar: true # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
 ---
-## Due Date - March 31, 2021, 10PM CST
+## Due Date - April 04, 2021, 10PM CST
 ___
 **Objectives**
 ___
