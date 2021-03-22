@@ -10,7 +10,6 @@ ___
 
 In this project, you are going to build on the first project. You will have a server in the cloud that downloads and saves a web page in memory. You will then have clients connect to the server and retrives this content. This is the overly simplified idea behind a **WEB PROXY**. The client and server communications MUST use UDP (SOCK_DGRAM) and NOT TCP.
 
-
 The objectives are:
 
 -- Learn to create robust network protocols
