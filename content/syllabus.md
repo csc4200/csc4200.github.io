@@ -113,7 +113,9 @@ Week 6 - Routing, BGP
 **March 15th-March 19th Spring Break**
 
 ------------------------------------------ 
-* March 21 - Review [Recording](/csc4200/recordings/Mar22.mp4)
+* March 22 - Review [Recording](/csc4200/recordings/Mar22.mp4)
+* March 24 - Review [Recording](/csc4200/recordings/Mar24.mp4)
+- **- Reading assignement** [UDP](https://book.systemsapproach.org/e2e/udp.html#simple-demultiplexor-udp), [End-to-End Issues, Segment Format, Connection Establishment and Termination](https://book.systemsapproach.org/e2e/tcp.html#reliable-byte-stream-tcp)
 
 
 
