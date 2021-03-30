@@ -103,7 +103,6 @@ Week 6 - Routing, BGP
 * March 10 - BGP [Slides](/csc4200/lecture_slides/Mar10.pdf), [Recording](/csc4200/recordings/Mar10.mp4)
 - **- Reading assignment** [Reading](https://book.systemsapproach.org/internetworking/routing.html)
 
-
 * March 12 - BGP [Slides](/csc4200/lecture_slides/Mar12.pdf), [Recording](/csc4200/recordings/Mar12.mp4)
 - **- Reading assignment** [Reading](https://book.systemsapproach.org/scaling/global.html#interdomain-routing-bgp)
 
