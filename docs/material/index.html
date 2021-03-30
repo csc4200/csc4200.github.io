@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Networking and the Internet</title>
+    
+<link rel="icon" type="image/png" href="https://tntech-ngin.github.io/csc4200/images/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/csc4200/css/style.min.ffc23d213982a54bd10037c259fdef1df7bcc48e72985ea97b29bf0b53f4e6b8.css" integrity="sha256-/8I9ITmCpUvRADfCWf3vHfe8xI5ymF6peym/C1P05rg=">
+<link rel="stylesheet" type="text/css" href="https://tntech-ngin.github.io/csc4200/css/icons.css">
+
+  </head>
+  <body>
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    
+
+    
+
+
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/csc4200">
+        <img src="/csc4200/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+        <div class="navbar-start">
+          <a class="navbar-item is-hidden-mobile">
+            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+              <svg width="1000px" height="1000px">
+                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                <path class="path2" d="M 300 500 L 700 500"></path>
+                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+              </svg>
+              <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+            </div>
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="/csc4200/syllabus/index.html" class="navbar-item is-secondary">
+            Syllabus
+          </a>
+          <a href="/csc4200/material/index.html" class="navbar-item is-secondary">
+            Material
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Programming Assignments
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/csc4200/programming1/index.html" class="navbar-item">
+                Assignment 1
+              </a>
+              <a href="/csc4200/programming2/index.html" class="navbar-item">
+                Assignment 2
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Homeworks
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/csc4200/homeworks/homework1.pdf" class="navbar-item">
+                Homework 1
+              </a>
+              <a href="/csc4200/homeworks/homework2.pdf" class="navbar-item">
+                Homework 2
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/csc4200">
+        <img src="/csc4200/images/logos/logo.svg" alt="" width="112" height="28">
+      </a>
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+      <div class="navbar-start">
+        <a class="navbar-item is-hidden-mobile">
+          <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+            <svg width="1000px" height="1000px">
+              <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+              <path class="path2" d="M 300 500 L 700 500"></path>
+              <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+            </svg>
+            <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
+          </div>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a href="/csc4200/syllabus/index.html" class="navbar-item is-secondary">
+          Syllabus
+        </a>
+        <a href="/csc4200/material/index.html" class="navbar-item is-secondary">
+          Material
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Programming Assignments
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/csc4200/programming1/index.html" class="navbar-item">
+              Assignment 1
+            </a>
+            <a href="/csc4200/programming2/index.html" class="navbar-item">
+              Assignment 2
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Homeworks
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/csc4200/homeworks/homework1.pdf" class="navbar-item">
+              Homework 1
+            </a>
+            <a href="/csc4200/homeworks/homework2.pdf" class="navbar-item">
+              Homework 2
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Course Material</h1>
+        <h5 class="subtitle is-5 is-muted"></h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <hr>
+<ol>
+<li><strong>Textbook</strong>
+We will be using the following book. It is open source and you can use the <a href="https://github.com/SystemsApproach/book/releases/download/v6.1/book.pdf">PDF</a> or the <a href="https://book.systemsapproach.org/">HTML</a> version.</li>
+</ol>
+<pre><code>Title: Computer Networks: A Systems Approach
+    Authors: Larry Peterson and Bruce Davie
+    Copyright: Elsevier, 2012
+    Source: https://github.com/SystemsApproach
+    License: CC BY 4.0
+</code></pre><ul>
+<li><strong>Socket Programming Book, C/C++</strong> - Use <a href="https://beej.us/guide/bgnet/">Beej&rsquo;s Guide to Network Programming</a> for socket programming introduction.</li>
+</ul>
+<ul>
+<li><strong>Socket Programming, Python</strong> -  Use <a href="https://docs.python.org/3/howto/sockets.html">this link</a></li>
+</ul>
+<ol start="3">
+<li>Grading criteria:
+<ul>
+<li>All Homeworks combined - 15%</li>
+<li>Programming Assignments - 35%</li>
+<li>Exams - 35%</li>
+<li>Class participation - 15%</li>
+</ul>
+</li>
+</ol>
+<p>Final grade will depend on relative distribution of scores.</p>
+
+  </div>
+</section>
+
+
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+    
+<div class="sidebar">
+  <div class="sidebar-header">
+    <img src="/csc4200/images/logos/fresh-white-alt.svg">
+    <a class="sidebar-close" href="javascript:void(0);">
+      <i data-feather="x"></i>
+    </a>
+  </div>
+  <div class="inner">
+    <ul class="sidebar-menu">
+      
+      <li>
+        <a href="/csc4200/material/">
+          Course Material
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/programming3/">
+          Create your own content delivery network
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/programming1/">
+          Programming Assignment
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/syllabus/">
+          Syllabus
+        </a>
+      </li>
+      
+      <li>
+        <a href="/csc4200/programming2/">
+          To the Cloud and Back
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://tntech-ngin.github.io/csc4200/js/fresh.js"></script>
+<script src="https://tntech-ngin.github.io/csc4200/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </body>
+</html>
