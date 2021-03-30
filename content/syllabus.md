@@ -115,17 +115,16 @@ Week 6 - Routing, BGP
 ------------------------------------------ 
 * March 22 - Review [Recording](/csc4200/recordings/Mar22.mp4)
 
-* March 24 - UDP, TCP [Recording](/csc4200/recordings/Mar24.mp4)
+* March 24 - UDP, TCP[Slides](/csc4200/lecture_slides/Mar24.pdf) [Recording](/csc4200/recordings/Mar24.mp4)
 - **- Reading assignment** [UDP](https://book.systemsapproach.org/e2e/udp.html#simple-demultiplexor-udp), [End-to-End Issues, Segment Format, Connection Establishment and Termination](https://book.systemsapproach.org/e2e/tcp.html#reliable-byte-stream-tcp)
 
-* March 26 - TCP Flow Control, Three way handshake [Recording](/csc4200/recordings/Mar26.mp4)
+* March 26 - TCP Flow Control, Three way handshake [Slides](/csc4200/lecture_slides/Mar26.pdf)[Recording](/csc4200/recordings/Mar26.mp4)
 - **- Reading assignment** [Connection Establishment and Termination](https://book.systemsapproach.org/e2e/tcp.html#reliable-byte-stream-tcp)
 
 
-Week 7 - BGP continued, Global Internet 
 ------------------------------------------
 
-Week 8 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS 
+* March 29 -  PA2 review [Slides](/csc4200/lecture_slides/Mar29.pdf) [Recording](/csc4200/recordings/Mar29.mp4)
 
 ------------------------------------------ 
 **April  02 - Last day to withdraw**
