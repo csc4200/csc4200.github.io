@@ -123,7 +123,7 @@ Week 6 - Routing, BGP
 
 ------------------------------------------
 
-* March 29 -  PA2 review [Slides](/csc4200/lecture_slides/Mar29.pdf) [Recording](/csc4200/recordings/Mar29.mp4)
+* March 29 -  PA2 review [Slides](/csc4200/lecture_slides/Mar29.pdf) [Recording](https://drive.google.com/file/d/1_Z0eHYJq81UZ0dEOxZDTEKtA1odN5rpG/view?usp=sharing)
 
 ------------------------------------------ 
 **April  02 - Last day to withdraw**
