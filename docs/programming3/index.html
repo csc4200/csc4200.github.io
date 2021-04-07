@@ -193,7 +193,7 @@
         <div class="divider"></div>
       </div>
     </div>
-    <h2 id="due-date---november-27-2020-10pm-cst">Due Date - November 27, 2020, 10PM CST</h2>
+    <h2 id="due-date---april-26-2021-10pm-cst">Due Date - April 26, 2021, 10PM CST</h2>
 <hr>
 <p><strong>Objectives</strong></p>
 <hr>
@@ -230,7 +230,8 @@
 </code></pre><hr>
 <p>Functional requirements</p>
 <hr>
-<ol>
+<ol start="0">
+<li>You need to create more than one server that will be serving content.</li>
 <li>The server must open a TCP/UDP socket on the specified port number</li>
 <li>The server should gracefully process incorrect port number and exit with a non-zero error code</li>
 <li>The server should download the file specified by -p and save it to the memory</li>
@@ -248,7 +249,7 @@
 $ loadbalancer -s replica_servers.txt -p 6543 -l LOGFILE
 </code></pre><!-- raw HTML omitted -->
 <ol>
-<li>Design your own protocol headers for most efficient communication between the load-balancer and the replicas</li>
+<li>Design your own protocol headers for most efficient communication between the load-balancer and the replicas. You may reuse headers from PA1/PA2, or come up with your own header.</li>
 <li>The client should connect to the replica server that has the highest preference.</li>
 <li>We define the preference as lowest combined value of weighed delay and loss. Lower value wins.</li>
 <li>Preference = 0.75<em>loss percentage + 0.25</em>delay in milliseconds</li>

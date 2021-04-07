@@ -131,8 +131,8 @@ Week 6 - Routing, BGP
 
 ------------------------------------------
 
-Week 9 - TCP/UDP, TCP Congestion control, Congestion avoidance and QoS, (Continued)
-
+Apr 04 - TCP Congestion control, Congestion avoidance [Slides](/csc4200/lecture_slides/Apr04.pdf) [Recording](/csc4200/recordings/Apr04.mp4)
+- **- Reading assignment** [TCP Congesion Control](https://book.systemsapproach.org/congestion/tcpcc.html#tcp-congestion-control)
 
 ------------------------------------------
 

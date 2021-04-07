@@ -3,7 +3,7 @@ title: "Create your own content delivery network"
 sidebar: true # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
 ---
-## Due Date - November 27, 2020, 10PM CST
+## Due Date - April 26, 2021, 10PM CST
 ___
 **Objectives**
 ___
@@ -59,12 +59,11 @@ $ replicaserver -p 30000 -l /tmp/logfile -p www.nytimes.com
 ___
 Functional requirements
 ___
+   0. You need to create more than one server that will be serving content.
    1. The server must open a TCP/UDP socket on the specified port number
    2. The server should gracefully process incorrect port number and exit with a non-zero error code
    4. The server should download the file specified by -p and save it to the memory
-
-
-
+   
 ___
 ***Load Balancer Specifications***
 ___
@@ -92,7 +91,7 @@ ___
 Protocol Specifications:
 ___
 
-1. Design your own protocol headers for most efficient communication between the load-balancer and the replicas
+1. Design your own protocol headers for most efficient communication between the load-balancer and the replicas. You may reuse headers from PA1/PA2, or come up with your own header.
 2. The client should connect to the replica server that has the highest preference.
 3. We define the preference as lowest combined value of weighed delay and loss. Lower value wins.
 4. Preference = 0.75*loss percentage + 0.25*delay in milliseconds
