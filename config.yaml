@@ -36,13 +36,15 @@ params:
         url: /csc4200/programming1/index.html
       - title: Assignment 2
         url: /csc4200/programming2/index.html
+      - title: Assignment 3
+        url: /csc4200/programming3/index.html        
   - title: Homeworks
     sublinks:
     - title: Homework 1
       url: /csc4200/homeworks/homework1.pdf
     - title: Homework 2
       url: /csc4200/homeworks/homework2.pdf      
-  section1:
+  section1:  
     title: Objectives
     tiles:
     - title: Learn Network Fundamentals

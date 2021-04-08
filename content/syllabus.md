@@ -134,6 +134,9 @@ Week 6 - Routing, BGP
 Apr 04 - TCP Congestion control, Congestion avoidance [Slides](/csc4200/lecture_slides/Apr04.pdf) [Recording](/csc4200/recordings/Apr04.mp4)
 - **- Reading assignment** [TCP Congesion Control](https://book.systemsapproach.org/congestion/tcpcc.html#tcp-congestion-control)
 
+Apr 04 - Application, Email [Slides](/csc4200/lecture_slides/Apr07.pdf) [Recording](/csc4200/recordings/Apr07.mp4)
+
+
 ------------------------------------------
 
 
