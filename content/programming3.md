@@ -36,10 +36,11 @@ The client and server communications may use TCP or UDP.
 <br>
 
 <br>
+
 ___
 **Replica Server Specifications**
 ___
-The server takes two arguments:
+The replica server takes two arguments:
 
 ```
 $ replicaserver -p <PORT> -s <LOG FILE LOCATION> -p <web page to download>
@@ -56,14 +57,6 @@ For example:
 ```
 $ replicaserver -p 30000 -l /tmp/logfile -p www.nytimes.com
 ```
-___
-Functional requirements
-___
-   0. You need to create more than one server that will be serving content.
-   1. The server must open a TCP/UDP socket on the specified port number
-   2. The server should gracefully process incorrect port number and exit with a non-zero error code
-   4. The server should download the file specified by -p and save it to the memory
-   
 ___
 ***Load Balancer Specifications***
 ___
@@ -87,6 +80,45 @@ For example:
 $ loadbalancer -s replica_servers.txt -p 6543 -l LOGFILE
 ```
 <br>
+
+___
+***Client Specifications***
+___
+
+The client (we name it anonclient) takes four arguments:
+<br>
+
+```
+$ anonclient -s <LOAD-BALANCER-IP> -p <PORT> -l LOGFILE -f <file_to_write_to>
+```
+
+The client takes three arguments:
+
+1.```LOAD-BALANCER-IP``` - The IP address of the load-balancer/redirector.
+
+2.```PORT``` - The port the server listens on.
+
+2.```Log file location``` - Where you will keep a record of packets you received.
+
+2.```File to write to``` - Where you will write the retrieved content.
+
+
+```
+For example:
+$ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE -f test.txt
+```
+<br>
+
+
+___
+**Functional requirements**
+___
+   0. You need to create more than one server that will be serving content.
+   1. The server must open a TCP/UDP socket on the specified port number
+   2. The server should gracefully process incorrect port number and exit with a non-zero error code
+   4. The server should download the file specified by -p and save it to the memory
+   
+
 ___
 Protocol Specifications:
 ___
@@ -94,7 +126,7 @@ ___
 1. Design your own protocol headers for most efficient communication between the load-balancer and the replicas. You may reuse headers from PA1/PA2, or come up with your own header.
 2. The client should connect to the replica server that has the highest preference.
 3. We define the preference as lowest combined value of weighed delay and loss. Lower value wins.
-4. Preference = 0.75*loss percentage + 0.25*delay in milliseconds
+4. **Preference = 0.75\*loss percentage + 0.25\*delay in milliseconds** - You will need to measure the loss and delay periodically. You may use ping.
 5. The load-balancer should probe the replica servers periodically and keep a list of preferences. You should be able to use a ping like program for this part.
 5. The load-balancer should be able to accept and process multiple connection from clients at the same time
 
@@ -127,7 +159,7 @@ ___
 1. The client will simply open a connection to the load-balancer and request a content
 2. Design your own protocol headers for most efficient communication between the client and the load-balancer
 1. The client should be able to receive the content and write to a file
-2. The client should gracefully process incorrect port number and exit with a non-zero error code (you can assume that the folder is always correct). In addition to exit, the client must print out on standard error (std::cerr) an error message that starts with ERROR: string.
+2. The client should gracefully process incorrect port number and exit with a non-zero error code (you can assume that the folder is always correct). In addition to exit, the client must log the error.
 
 ___
 **Additional requirements:**

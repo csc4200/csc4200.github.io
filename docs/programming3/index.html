@@ -227,6 +227,10 @@
 <p>The client and server communications may use TCP or UDP.
 <!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
+<hr>
+<p><strong>Replica Server Specifications</strong></p>
+<hr>
+<p>The replica server takes two arguments:</p>
 <pre><code>$ replicaserver -p &lt;PORT&gt; -s &lt;LOG FILE LOCATION&gt; -p &lt;web page to download&gt;
 </code></pre><p>1.<code>PORT</code> - The port server listens on.</p>
 <p>2.<code>Log file location</code> - Where you will keep a record of actions.</p>
@@ -234,15 +238,6 @@
 <p>For example:</p>
 <pre><code>$ replicaserver -p 30000 -l /tmp/logfile -p www.nytimes.com
 </code></pre><hr>
-<p>Functional requirements</p>
-<hr>
-<ol start="0">
-<li>You need to create more than one server that will be serving content.</li>
-<li>The server must open a TCP/UDP socket on the specified port number</li>
-<li>The server should gracefully process incorrect port number and exit with a non-zero error code</li>
-<li>The server should download the file specified by -p and save it to the memory</li>
-</ol>
-<hr>
 <p><em><strong>Load Balancer Specifications</strong></em></p>
 <hr>
 <!-- raw HTML omitted -->
@@ -254,11 +249,37 @@
 <pre><code>For example:
 $ loadbalancer -s replica_servers.txt -p 6543 -l LOGFILE
 </code></pre><!-- raw HTML omitted -->
+<hr>
+<p><em><strong>Client Specifications</strong></em></p>
+<hr>
+<p>The client (we name it anonclient) takes four arguments:
+<!-- raw HTML omitted --></p>
+<pre><code>$ anonclient -s &lt;LOAD-BALANCER-IP&gt; -p &lt;PORT&gt; -l LOGFILE -f &lt;file_to_write_to&gt;
+</code></pre><p>The client takes three arguments:</p>
+<p>1.<code>LOAD-BALANCER-IP</code> - The IP address of the load-balancer/redirector.</p>
+<p>2.<code>PORT</code> - The port the server listens on.</p>
+<p>2.<code>Log file location</code> - Where you will keep a record of packets you received.</p>
+<p>2.<code>File to write to</code> - Where you will write the retrieved content.</p>
+<pre><code>For example:
+$ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE -f test.txt
+</code></pre><!-- raw HTML omitted -->
+<hr>
+<p><strong>Functional requirements</strong></p>
+<hr>
+<ol start="0">
+<li>You need to create more than one server that will be serving content.</li>
+<li>The server must open a TCP/UDP socket on the specified port number</li>
+<li>The server should gracefully process incorrect port number and exit with a non-zero error code</li>
+<li>The server should download the file specified by -p and save it to the memory</li>
+</ol>
+<hr>
+<p>Protocol Specifications:</p>
+<hr>
 <ol>
 <li>Design your own protocol headers for most efficient communication between the load-balancer and the replicas. You may reuse headers from PA1/PA2, or come up with your own header.</li>
 <li>The client should connect to the replica server that has the highest preference.</li>
 <li>We define the preference as lowest combined value of weighed delay and loss. Lower value wins.</li>
-<li>Preference = 0.75<em>loss percentage + 0.25</em>delay in milliseconds</li>
+<li><strong>Preference = 0.75*loss percentage + 0.25*delay in milliseconds</strong> - You will need to measure the loss and delay periodically. You may use ping.</li>
 <li>The load-balancer should probe the replica servers periodically and keep a list of preferences. You should be able to use a ping like program for this part.</li>
 <li>The load-balancer should be able to accept and process multiple connection from clients at the same time</li>
 </ol>
@@ -280,7 +301,7 @@ $ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE
 <li>The client will simply open a connection to the load-balancer and request a content</li>
 <li>Design your own protocol headers for most efficient communication between the client and the load-balancer</li>
 <li>The client should be able to receive the content and write to a file</li>
-<li>The client should gracefully process incorrect port number and exit with a non-zero error code (you can assume that the folder is always correct). In addition to exit, the client must print out on standard error (std::cerr) an error message that starts with ERROR: string.</li>
+<li>The client should gracefully process incorrect port number and exit with a non-zero error code (you can assume that the folder is always correct). In addition to exit, the client must log the error.</li>
 </ol>
 <hr>
 <p><strong>Additional requirements:</strong></p>
