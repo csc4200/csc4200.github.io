@@ -134,13 +134,19 @@ Week 6 - Routing, BGP
 Apr 04 - TCP Congestion control, Congestion avoidance [Slides](/csc4200/lecture_slides/Apr04.pdf) [Recording](/csc4200/recordings/Apr04.mp4)
 - **- Reading assignment** [TCP Congesion Control](https://book.systemsapproach.org/congestion/tcpcc.html#tcp-congestion-control)
 
-Apr 04 - Application, Email [Slides](/csc4200/lecture_slides/Apr07.pdf) [Recording](/csc4200/recordings/Apr07.mp4)
+Apr 07 - Application, Email [Slides](/csc4200/lecture_slides/Apr07.pdf) [Recording](/csc4200/recordings/Apr07.mp4)
+- **- Reading assignment** [Email](https://book.systemsapproach.org/applications/traditional.html#electronic-mail-smtp-mime-imap)
 
-
+Apr 09 - Application, Email [Slides](/csc4200/lecture_slides/Apr09.pdf) [Recording](/csc4200/recordings/Apr09.mp4)
+- **- Reading assignment** [DNS](https://book.systemsapproach.org/applications/infrastructure.html#name-service-dns)
 ------------------------------------------
 
 
-Week 10 - Applications - Web, DNS, Email 
+Apr 12 - Exam and PA2 review [Recording](/csc4200/recordings/Apr12.mp4)
+
+Apr 14 - Network Security, Symmetric Key [Slides](/csc4200/lecture_slides/Apr14.pdf)[Recording](/csc4200/recordings/Apr14.mp4)
+
+Apr 14 - Network Security, Asymmetric Key [Slides](/csc4200/lecture_slides/Apr16.pdf)[Recording](/csc4200/recordings/Apr16.mp4)
 
 ------------------------------------------
 
