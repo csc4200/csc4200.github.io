@@ -1,5 +1,5 @@
 ---
-title: "Create your own content delivery network"
+title: "Create your own content delivery network redirector"
 sidebar: true # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
 ---
@@ -24,11 +24,11 @@ ___
 
 <br>
 
-In this project, you are going to build on the first and the second project. You will build your own "CDN load-balancer". A cloud typically hosts multiple copies (replicas) of the same content. Depending on where the request is coming from, it routes the requests a suitable replica.  A primary component of any CDN is the entity called a load-balancer. The function of a load-balancer is route requests to the "most suitable" server. CDNs choose their own metric for defining which server is the most suitable. It can be the replica with the lowest latency, the replica with lowest loss, or a combination of multiple parameters.
+In this project, you are going to build on the first and the second project. You will build your own "CDN load-balancer/redirector". A cloud typically hosts multiple copies (replicas) of the same content. Depending on where the request is coming from, it routes the requests a suitable replica.  A primary component of any CDN is the entity called a load-balancer/redirector. The function of a load-balancer is route requests to the "most suitable" server. CDNs choose their own metric for defining which server is the most suitable. It can be the replica with the lowest latency, the replica with lowest loss, or a combination of multiple parameters.
 
 <br>
 
-In this exercise, you will create three replicas with the same content. You will also keep track of the delay and loss parameters to each replica. At the beginning, each replica will download some content from a website. When a request comes in, you will redirect the request to the most suitable replica (see the definition below), download the content, and close the connection. When the next request comes in, you will redirect that request to the most suitable replica at that time. The network conditions will change throughout the experiment.
+In this exercise, you will create three replicas with the same content. You will also keep track of the delay and loss parameters to each replica. At the beginning, each replica will download some content from a website. When a request comes in, you will redirect the request to the most suitable replica (see the definition below). When the next request comes in, you will redirect that request to the most suitable replica at that time. The network conditions will change throughout the experiment.
 
 <br>
 
@@ -111,6 +111,16 @@ $ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE -f test.txt
 
 
 ___
+**Client Requirements**
+___
+1. The client will simply open a connection to the load-balancer and request a content
+2. Design your own protocol headers for most efficient communication between the client and the load-balancer
+1. The client should be able to receive the content and write to a file
+2. The client should gracefully process incorrect port number and exit with a non-zero error code (you can assume that the folder is always correct). In addition to exit, the client must log the error.
+
+
+
+___
 **Functional requirements**
 ___
    0. You need to create more than one server that will be serving content.
@@ -120,7 +130,7 @@ ___
    
 
 ___
-Protocol Specifications:
+**Protocol Specifications:**
 ___
 
 1. Design your own protocol headers for most efficient communication between the load-balancer and the replicas. You may reuse headers from PA1/PA2, or come up with your own header.
@@ -130,36 +140,6 @@ ___
 5. The load-balancer should probe the replica servers periodically and keep a list of preferences. You should be able to use a ping like program for this part.
 5. The load-balancer should be able to accept and process multiple connection from clients at the same time
 
-___
-***Client Specifications***
-___
-<br>
-
-```
-$ anonclient -s <load-balancer-IP> -p <PORT> -l LOGFILE
-```
-
-The client takes three arguments:
-
-1.```load-balancer IP``` - The IP address of the load-balancer.
-
-2.```PORT``` - The port the server listens on.
-
-2.```Log file location``` - Where you will keep a record of packets you received.
-
-
-```
-For example:
-$ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE
-```
-
-___
-**Client Requirements**
-___
-1. The client will simply open a connection to the load-balancer and request a content
-2. Design your own protocol headers for most efficient communication between the client and the load-balancer
-1. The client should be able to receive the content and write to a file
-2. The client should gracefully process incorrect port number and exit with a non-zero error code (you can assume that the folder is always correct). In addition to exit, the client must log the error.
 
 ___
 **Additional requirements:**
@@ -168,8 +148,6 @@ ___
 2. For each packet received, log interaction at the load-balancer in the following format:
 ```
 Request from <CLIENT IP> for  <URL>. Redirecting to <Replica IP>, Preference <Preference>, Next Preference was <Next lowest preference> to <Replica IP>
-Response from <Replica IP>, sending request to <Client IP>
-
 ```
 
 3. If error occurs: log the following:
@@ -182,8 +160,23 @@ Response from <Replica IP>, sending request to <Client IP>
 dnf install -y kernel-modules-extra
 dnf install -y kernel-debug-modules-extra
 reboot
-tc qdisc add dev <ethernet device, e.g, eth0> root netem delay 200ms
-tc qdisc add dev <ethernet device, e.g, eth0> root netem loss 20%
-tc qdisc del dev eth0 root
 ```
 
+Add loss or Delay
+
+```
+tc qdisc add dev <ethernet device, e.g, eth0> root netem delay 200ms
+tc qdisc add dev <ethernet device, e.g, eth0> root netem loss 20%
+```
+
+Reset loss or delay
+
+```
+tc qdisc add dev <ethernet device, e.g, eth0> root netem delay <new delay>
+```
+
+Delete everything
+
+```
+tc qdisc del dev eth0 root
+```

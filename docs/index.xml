@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Create your own content delivery network</title>
+      <title>Create your own content delivery network redirector</title>
       <link>https://tntech-ngin.github.io/csc4200/programming3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -26,7 +26,7 @@
   Solve each smaller problem and bring them together to solve the larger problem
   Learn how CDNs work and build your own CDN
    Overview
- In this project, you are going to build on the first and the second project. You will build your own &amp;ldquo;CDN load-balancer&amp;rdquo;.</description>
+ In this project, you are going to build on the first and the second project. You will build your own &amp;ldquo;CDN load-balancer/redirector&amp;rdquo;.</description>
     </item>
     
     <item>

@@ -150,7 +150,7 @@ Apr 14 - Network Security, Asymmetric Key [Slides](/csc4200/lecture_slides/Apr16
 
 ------------------------------------------
 
-Week 11 - Network security 
+Apr 19 - Network Security, VPN/IPSec [Slides](/csc4200/lecture_slides/Apr19.pdf)[Recording](/csc4200/recordings/Apr19.mp4)
 
 ------------------------------------------
 
