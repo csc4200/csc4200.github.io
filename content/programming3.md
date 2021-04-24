@@ -3,7 +3,7 @@ title: "Create your own content delivery network redirector"
 sidebar: true # or false to display the sidebar
 sidebarlogo: fresh-white-alt # From (static/images/logo/)
 ---
-## Due Date - April 26, 2021, 10PM CST
+## Due Date - April 28, 2021, 10PM CST
 ___
 **Objectives**
 ___
@@ -43,19 +43,19 @@ ___
 The replica server takes two arguments:
 
 ```
-$ replicaserver -p <PORT> -s <LOG FILE LOCATION> -p <web page to download>
+$ replicaserver -p <PORT> -s <LOG FILE LOCATION> -w <web page to download>
 ```
 
 1.```PORT``` - The port server listens on.
 
 2.```Log file location``` - Where you will keep a record of actions.
 
-3.```p``` - Which webpage to download and serve.
+3.```w``` - Which webpage to download and serve.
 
 For example:
 
 ```
-$ replicaserver -p 30000 -l /tmp/logfile -p www.nytimes.com
+$ replicaserver -p 30000 -l /tmp/logfile -w www.nytimes.com
 ```
 ___
 ***Load Balancer Specifications***
@@ -157,8 +157,8 @@ Request from <CLIENT IP> for  <URL>. Redirecting to <Replica IP>, Preference <Pr
 
 4. Set the loss and delay using these commands:
 ```
-dnf install -y kernel-modules-extra
-dnf install -y kernel-debug-modules-extra
+apt-get install -y kernel-modules-extra
+apt-get install -y kernel-debug-modules-extra
 reboot
 ```
 

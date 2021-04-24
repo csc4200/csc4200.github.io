@@ -154,7 +154,7 @@ Apr 19 - Network Security, VPN/IPSec [Slides](/csc4200/lecture_slides/Apr19.pdf)
 
 ------------------------------------------
 
-Week 12 - Next generation network - Software Defined Network and Named Data Networking
+Apr 21 - Network Security - Firewall/IDS [Slides](/csc4200/lecture_slides/Apr19.pdf)
 
 ------------------------------------------
 

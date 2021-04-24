@@ -205,7 +205,7 @@
         <div class="divider"></div>
       </div>
     </div>
-    <h2 id="due-date---april-26-2021-10pm-cst">Due Date - April 26, 2021, 10PM CST</h2>
+    <h2 id="due-date---april-28-2021-10pm-cst">Due Date - April 28, 2021, 10PM CST</h2>
 <hr>
 <p><strong>Objectives</strong></p>
 <hr>
@@ -237,12 +237,12 @@
 <p><strong>Replica Server Specifications</strong></p>
 <hr>
 <p>The replica server takes two arguments:</p>
-<pre><code>$ replicaserver -p &lt;PORT&gt; -s &lt;LOG FILE LOCATION&gt; -p &lt;web page to download&gt;
+<pre><code>$ replicaserver -p &lt;PORT&gt; -s &lt;LOG FILE LOCATION&gt; -w &lt;web page to download&gt;
 </code></pre><p>1.<code>PORT</code> - The port server listens on.</p>
 <p>2.<code>Log file location</code> - Where you will keep a record of actions.</p>
-<p>3.<code>p</code> - Which webpage to download and serve.</p>
+<p>3.<code>w</code> - Which webpage to download and serve.</p>
 <p>For example:</p>
-<pre><code>$ replicaserver -p 30000 -l /tmp/logfile -p www.nytimes.com
+<pre><code>$ replicaserver -p 30000 -l /tmp/logfile -w www.nytimes.com
 </code></pre><hr>
 <p><em><strong>Load Balancer Specifications</strong></em></p>
 <hr>
@@ -313,8 +313,8 @@ $ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE -f test.txt
 </code></pre><ol start="4">
 <li>Set the loss and delay using these commands:</li>
 </ol>
-<pre><code>dnf install -y kernel-modules-extra
-dnf install -y kernel-debug-modules-extra
+<pre><code>apt-get install -y kernel-modules-extra
+apt-get install -y kernel-debug-modules-extra
 reboot
 </code></pre><p>Add loss or Delay</p>
 <pre><code>tc qdisc add dev &lt;ethernet device, e.g, eth0&gt; root netem delay 200ms
