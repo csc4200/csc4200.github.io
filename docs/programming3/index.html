@@ -305,7 +305,7 @@ $ anonclient -s 192.168.2.1 -p 6543 -l LOGFILE -f test.txt
 <li>Code must compile/run on Google Cloud Ubuntu VM (18.04) - we will test your code only on the VM.</li>
 <li>For each packet received, log interaction at the load-balancer in the following format:</li>
 </ol>
-<pre><code>Request from &lt;CLIENT IP&gt; for  &lt;URL&gt;. Redirecting to &lt;Replica IP&gt;, Preference &lt;Preference&gt;, Next Preference was &lt;Next lowest preference&gt; to &lt;Replica IP&gt;
+<pre><code>Request from &lt;CLIENT IP&gt;. Redirecting to &lt;Replica IP&gt;, Preference &lt;Preference&gt;, Next Preference was &lt;Next lowest preference&gt; to &lt;Replica IP&gt;
 </code></pre><ol start="3">
 <li>If error occurs: log the following:</li>
 </ol>

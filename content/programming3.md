@@ -147,7 +147,7 @@ ___
 1. Code must compile/run on Google Cloud Ubuntu VM (18.04) - we will test your code only on the VM.
 2. For each packet received, log interaction at the load-balancer in the following format:
 ```
-Request from <CLIENT IP> for  <URL>. Redirecting to <Replica IP>, Preference <Preference>, Next Preference was <Next lowest preference> to <Replica IP>
+Request from <CLIENT IP>. Redirecting to <Replica IP>, Preference <Preference>, Next Preference was <Next lowest preference> to <Replica IP>
 ```
 
 3. If error occurs: log the following:
