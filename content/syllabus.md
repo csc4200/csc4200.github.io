@@ -144,21 +144,23 @@ Apr 09 - Application, Email [Slides](/csc4200/lecture_slides/Apr09.pdf) [Recordi
 
 Apr 12 - Exam and PA2 review [Recording](/csc4200/recordings/Apr12.mp4)
 
-Apr 14 - Network Security, Symmetric Key [Slides](/csc4200/lecture_slides/Apr14.pdf)[Recording](/csc4200/recordings/Apr14.mp4)
+Apr 14 - Network Security, Symmetric Key [Slides](/csc4200/lecture_slides/Apr14.pdf) [Recording](/csc4200/recordings/Apr14.mp4)
 
-Apr 14 - Network Security, Asymmetric Key [Slides](/csc4200/lecture_slides/Apr16.pdf)[Recording](/csc4200/recordings/Apr16.mp4)
+Apr 16 - Network Security, Asymmetric Key [Slides](/csc4200/lecture_slides/Apr16.pdf) [Recording](/csc4200/recordings/Apr16.mp4)
 
 ------------------------------------------
 
-Apr 19 - Network Security, VPN/IPSec [Slides](/csc4200/lecture_slides/Apr19.pdf)[Recording](/csc4200/recordings/Apr19.mp4)
+Apr 19 - Network Security, VPN/IPSec [Slides](/csc4200/lecture_slides/Apr19.pdf) [Recording](/csc4200/recordings/Apr19.mp4)
 
 ------------------------------------------
 
 Apr 21 - Network Security - Firewall/IDS [Slides](/csc4200/lecture_slides/Apr19.pdf)
+Apr 23 - Review and PA3 - [Recording](/csc4200/recordings/Apr23.mp4)
 
 ------------------------------------------
 
-Week 13 - Next generation network - Software Defined Network and Named Data Networking continued.
+Week 13 - Next generation network - Software Defined Network and Named Data Networking.[Slides](/csc4200/lecture_slides/Apr23.pdf) [Recording](/csc4200/recordings/Apr23.mp4)
+
 
 ------------------------------------------
 
