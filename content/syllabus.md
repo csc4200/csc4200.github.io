@@ -160,7 +160,7 @@ Apr 23 - Review and PA3 - [Recording](https://github.com/tntech-ngin/csc4200/blo
 
 ------------------------------------------
 
-Apr 26 - Next generation network - Software Defined Network and Named Data Networking.[Slides](/csc4200/lecture_slides/Apr23.pdf) [Recording](https://github.com/tntech-ngin/csc4200/blob/master/static/recordings/Apr26.mp4?raw=true)
+Apr 26 - Next generation network - Software Defined Network and Named Data Networking.[Slides](/csc4200/lecture_slides/Apr26.pdf) [Recording](https://github.com/tntech-ngin/csc4200/blob/master/static/recordings/Apr26.mp4?raw=true)
 
 
 ------------------------------------------
