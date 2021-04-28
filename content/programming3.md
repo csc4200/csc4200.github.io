@@ -30,6 +30,8 @@ In this project, you are going to build on the first and the second project. You
 
 In this exercise, you will create three replicas with the same content. You will also keep track of the delay and loss parameters to each replica. At the beginning, each replica will download some content from a website. When a request comes in, you will redirect the request to the most suitable replica (see the definition below). When the next request comes in, you will redirect that request to the most suitable replica at that time. The network conditions will change throughout the experiment.
 
+Note that the load balancer does not act as a proxy. It simply tells the clients which server to connect to.
+
 <br>
 
 The client and server communications may use TCP or UDP.
@@ -40,7 +42,7 @@ The client and server communications may use TCP or UDP.
 ___
 **Replica Server Specifications**
 ___
-The replica server takes two arguments:
+The replica server takes three arguments:
 
 ```
 $ replicaserver -p <PORT> -s <LOG FILE LOCATION> -w <web page to download>

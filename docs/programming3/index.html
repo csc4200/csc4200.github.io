@@ -229,6 +229,7 @@
 <p>In this project, you are going to build on the first and the second project. You will build your own &ldquo;CDN load-balancer/redirector&rdquo;. A cloud typically hosts multiple copies (replicas) of the same content. Depending on where the request is coming from, it routes the requests a suitable replica.  A primary component of any CDN is the entity called a load-balancer/redirector. The function of a load-balancer is route requests to the &ldquo;most suitable&rdquo; server. CDNs choose their own metric for defining which server is the most suitable. It can be the replica with the lowest latency, the replica with lowest loss, or a combination of multiple parameters.</p>
 <!-- raw HTML omitted -->
 <p>In this exercise, you will create three replicas with the same content. You will also keep track of the delay and loss parameters to each replica. At the beginning, each replica will download some content from a website. When a request comes in, you will redirect the request to the most suitable replica (see the definition below). When the next request comes in, you will redirect that request to the most suitable replica at that time. The network conditions will change throughout the experiment.</p>
+<p>Note that the load balancer does not act as a proxy. It simply tells the clients which server to connect to.</p>
 <!-- raw HTML omitted -->
 <p>The client and server communications may use TCP or UDP.
 <!-- raw HTML omitted --></p>
@@ -236,7 +237,7 @@
 <hr>
 <p><strong>Replica Server Specifications</strong></p>
 <hr>
-<p>The replica server takes two arguments:</p>
+<p>The replica server takes three arguments:</p>
 <pre><code>$ replicaserver -p &lt;PORT&gt; -s &lt;LOG FILE LOCATION&gt; -w &lt;web page to download&gt;
 </code></pre><p>1.<code>PORT</code> - The port server listens on.</p>
 <p>2.<code>Log file location</code> - Where you will keep a record of actions.</p>
