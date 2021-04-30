@@ -163,9 +163,10 @@ Apr 23 - Review and PA3 - [Recording](https://github.com/tntech-ngin/csc4200/blo
 Apr 26 - Next generation network - Software Defined Network and Named Data Networking.[Slides](/csc4200/lecture_slides/Apr26.pdf) [Recording](https://github.com/tntech-ngin/csc4200/blob/master/static/recordings/Apr26.mp4?raw=true)
 
 
-------------------------------------------
+Apr 28 - Next generation network - Named Data Networking.[Slides](/csc4200/lecture_slides/Apr28.pdf) [Recording](https://github.com/tntech-ngin/csc4200/blob/master/static/recordings/Apr28.mp4?raw=true)
 
-Week 14 - December 2, 4, 6 - Review of meterials, project demo, and wrap-up
+
+Apr 30 - Review. [Recording](https://github.com/tntech-ngin/csc4200/blob/master/static/recordings/Apr30.mp4?raw=true)
 
 ------------------------------------------
 
